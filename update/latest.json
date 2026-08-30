@@ -1,6 +1,6 @@
 {
-    "version":  "1.0.7",
-    "notes":  "NoxBot 1.0.7 - fix wrong Dev session steal; inject.log on correct pack; harden panel_widgets.",
+    "version":  "1.0.8",
+    "notes":  "NoxBot 1.0.8 - UI version from channel; Lua errors/warns mirror to inject.log; session pack fix.",
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
