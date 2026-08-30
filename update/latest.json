@@ -1,6 +1,6 @@
 {
-    "version":  "1.0.6",
-    "notes":  "NoxBot 1.0.6 - unified inject.log for support (launcher + bridge + motor).",
+    "version":  "1.0.7",
+    "notes":  "NoxBot 1.0.7 - fix wrong Dev session steal; inject.log on correct pack; harden panel_widgets.",
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
