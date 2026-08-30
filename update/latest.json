@@ -1,0 +1,22 @@
+﻿{
+    "version":  "1.0.1",
+    "notes":  "NoxBot 1.0.1 - KeyAuth, encrypted scripts NXL, encrypted sigs NXS, autoupdate.",
+    "files":  [
+                  {
+                      "name":  "NoxBotLauncher.exe",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotLauncher.exe"
+                  },
+                  {
+                      "name":  "NoxBotBridge.dll",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotBridge.dll"
+                  },
+                  {
+                      "name":  "NoxBotUpdater.exe",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotUpdater.exe"
+                  },
+                  {
+                      "name":  "nox_lua.zip",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/nox_lua.zip"
+                  }
+              ]
+}

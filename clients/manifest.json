@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "notes": "Sigs cifradas NoxBot (.nxs). Offsets NO van en texto plano.",
+  "clients": [
+    {
+      "id": "nostalrius",
+      "label": "Nostalrius 7.4 x64",
+      "file": "nostalrius.nxs",
+      "rev": 1,
+      "arch": "x64",
+      "exe": ["Nostalrius_OpenGL.exe", "Nostalrius_DX.exe", "Nostalrius.exe"]
+    }
+  ]
+}
