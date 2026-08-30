@@ -1,6 +1,6 @@
 {
-    "version":  "1.0.3",
-    "notes":  "NoxBot 1.0.3 - sigs from NoxBot-Sigs cloud only, engine scripts NXL encrypted.",
+    "version":  "1.0.4",
+    "notes":  "NoxBot 1.0.4 - fix NXL decrypt (dev-local), persist license key.",
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
