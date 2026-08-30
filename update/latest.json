@@ -1,6 +1,6 @@
-﻿{
-    "version":  "1.0.1",
-    "notes":  "NoxBot 1.0.1 - KeyAuth, encrypted scripts NXL, encrypted sigs NXS, autoupdate.",
+{
+    "version":  "1.0.2",
+    "notes":  "NoxBot 1.0.2 - UI version string fix, KeyAuth, NXL/NXS, autoupdate.",
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
