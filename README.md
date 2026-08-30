@@ -1,9 +1,4 @@
 ﻿# NoxBot
+Private update channel (binaries + encrypted Lua).
 
-Private update + encrypted client signatures channel.
-
-- `update/latest.json` - autoupdate manifest
-- `update/files/` - launcher binaries + encrypted `nox_lua.zip`
-- `clients/` - encrypted `.nxs` sigs only (never plain `.sigs`)
-
-Version: 1.0.1
+Sigs live in a separate repo: https://github.com/adrianito1234-debug/NoxBot-Sigs
