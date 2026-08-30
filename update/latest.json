@@ -1,6 +1,6 @@
 {
-    "version":  "2.0.1",
-    "notes":  "NoxBot 2.0.1 - Scripts cifrados NXL en el update. Decrypt en Activate. Bridge externo.",
+    "version":  "2.0.2",
+    "notes":  "NoxBot 2.0.2 - CaveBot goto/reach/walking como Xyro. Updater sincroniza cavebot/targetbot.",
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
