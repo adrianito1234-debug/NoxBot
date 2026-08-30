@@ -1,6 +1,6 @@
 ﻿{
-    "version":  "2.0.0",
-    "notes":  "NoxBot 2.0 - Bridge externo: ya no instala modulos en el cliente. Base multi-servidor, carga unificada de scripts y licencia real desde el servidor.",
+    "version":  "2.0.1",
+    "notes":  "NoxBot 2.0.1 - Scripts cifrados NXL en el update. Decrypt en Activate. Bridge externo.",
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
