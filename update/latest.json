@@ -1,6 +1,4 @@
 {
-    "version":  "2.0.2",
-    "notes":  "NoxBot 2.0.2 - CaveBot goto/reach/walking como Xyro. Updater sincroniza cavebot/targetbot.",
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
@@ -18,5 +16,7 @@
                       "name":  "nox_lua.zip",
                       "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/nox_lua.zip"
                   }
-              ]
+              ],
+    "version":  "2.0.3",
+    "notes":  "NoxBot 2.0.3 - Lifetime label fix, unified version display, encrypted NXL scripts"
 }
