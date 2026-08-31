@@ -17,6 +17,6 @@
                       "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/nox_lua.zip"
                   }
               ],
-    "version":  "2.0.3",
-    "notes":  "NoxBot 2.0.3 - Lifetime label fix, unified version display, encrypted NXL scripts"
+    "version":  "3.0.0",
+    "notes":  "NoxBot 3.0.0 - Commercial pack: embedded engine, plain Lua, clean install, Lifetime fix"
 }
