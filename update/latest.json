@@ -1,10 +1,10 @@
 {
-  "version": "3.0.2",
-  "notes": "NoxBot 3.0.2 - UI cold-start + sigs offsets (20260901041708)",
+  "version": "3.0.3",
+  "notes": "NoxBot 3.0.3 - Updater valida cabecera PE/ZIP y codigo HTTP. Canal de vuelta a raw.githubusercontent (jsDelivr bloquea exe/dll).",
   "files": [
-    {"name": "NoxBotLauncher.exe", "url": "https://cdn.jsdelivr.net/gh/adrianito1234-debug/NoxBot@main/update/files/NoxBotLauncher.exe"},
-    {"name": "NoxBotBridge.dll", "url": "https://cdn.jsdelivr.net/gh/adrianito1234-debug/NoxBot@main/update/files/NoxBotBridge.dll"},
-    {"name": "NoxBotUpdater.exe", "url": "https://cdn.jsdelivr.net/gh/adrianito1234-debug/NoxBot@main/update/files/NoxBotUpdater.exe"},
-    {"name": "nox_lua.zip", "url": "https://cdn.jsdelivr.net/gh/adrianito1234-debug/NoxBot@main/update/files/nox_lua.zip"}
+    {"name": "NoxBotLauncher.exe", "url": "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotLauncher.exe"},
+    {"name": "NoxBotBridge.dll", "url": "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotBridge.dll"},
+    {"name": "NoxBotUpdater.exe", "url": "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotUpdater.exe"},
+    {"name": "nox_lua.zip", "url": "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/nox_lua.zip"}
   ]
 }
