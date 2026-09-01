@@ -1,4 +1,4 @@
-{
+﻿{
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
@@ -17,6 +17,6 @@
                       "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/nox_lua.zip"
                   }
               ],
-    "version":  "3.0.0",
-    "notes":  "NoxBot 3.0.0 - Commercial pack: embedded engine, plain Lua, clean install, Lifetime fix"
+    "version":  "3.0.1",
+    "notes":  "NoxBot 3.0.1 - Fix cold-start UI (setupUI/UI), version title, load functions from pack; pair with NoxBot-Sigs nostalrius offsets"
 }
