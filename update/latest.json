@@ -1,6 +1,6 @@
 {
-    "version":  "3.0.11",
-    "notes":  "NoxBot 3.0.11 - Fix version UI: refresca noxbot/pack tras auto-update y DATA/version.txt manda sobre VFS.",
+    "version":  "3.0.12",
+    "notes":  "NoxBot 3.0.12 - Sigs cloud (KeyAuth+GitHub), motor embebido comercial, pepper v2.",
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
