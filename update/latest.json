@@ -1,6 +1,6 @@
 {
-    "version":  "3.0.7",
-    "notes":  "NoxBot 3.0.7 - Sigs leidas con el nombre del manifiesto, updater valida PE/ZIP y HTTP 200, version unificada en UI.",
+    "version":  "3.0.8",
+    "notes":  "NoxBot 3.0.8 - Solo instrumentacion: tid + ruta de inyeccion en inject.log (LOCALAPPDATA\\\\NoxBot). Sin cambio de flujo.",
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
