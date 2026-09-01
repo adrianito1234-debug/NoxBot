@@ -1,6 +1,6 @@
 {
-    "version":  "3.0.9",
-    "notes":  "NoxBot 3.0.9 STABLE - Copia funcional. Hibrido 1 contacto Lua si motor en disco. Sin ranuras masivas ni fallback off-thread.",
+    "version":  "3.0.10",
+    "notes":  "NoxBot 3.0.10 - Quitado \u0027Designed by Adrian\u0027 del panel principal.",
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
