@@ -1,6 +1,6 @@
 {
     "version":  "3.0.9",
-    "notes":  "NoxBot 3.0.9 - Hibrido: si el motor esta en disco, 1 solo contacto Lua (sin 72 ranuras). Sin fallback off-thread.",
+    "notes":  "NoxBot 3.0.9 STABLE - Copia funcional. Hibrido 1 contacto Lua si motor en disco. Sin ranuras masivas ni fallback off-thread.",
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
