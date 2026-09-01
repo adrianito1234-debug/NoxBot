@@ -1,6 +1,6 @@
 {
-    "version":  "3.0.10",
-    "notes":  "NoxBot 3.0.10 - Quitado \u0027Designed by Adrian\u0027 del panel principal.",
+    "version":  "3.0.11",
+    "notes":  "NoxBot 3.0.11 - Fix version UI: refresca noxbot/pack tras auto-update y DATA/version.txt manda sobre VFS.",
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
