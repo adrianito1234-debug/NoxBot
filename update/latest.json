@@ -1,6 +1,6 @@
 {
-    "version":  "3.0.8",
-    "notes":  "NoxBot 3.0.8 - Solo instrumentacion: tid + ruta de inyeccion en inject.log (LOCALAPPDATA\\\\NoxBot). Sin cambio de flujo.",
+    "version":  "3.0.9",
+    "notes":  "NoxBot 3.0.9 - Hibrido: si el motor esta en disco, 1 solo contacto Lua (sin 72 ranuras). Sin fallback off-thread.",
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
