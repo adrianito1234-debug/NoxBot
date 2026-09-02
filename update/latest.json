@@ -1,6 +1,6 @@
 {
-    "version":  "3.0.23",
-    "notes":  "NoxBot 3.0.23 - Auto Follow macro fix + nombre en panel Main",
+    "version":  "3.0.24",
+    "notes":  "NoxBot 3.0.24 - Auto Follow carga directa (fix lazy load roto)",
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
