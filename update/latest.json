@@ -1,6 +1,6 @@
 {
-    "version":  "3.0.24",
-    "notes":  "NoxBot 3.0.24 - Auto Follow carga directa (fix lazy load roto)",
+    "version":  "3.0.25",
+    "notes":  "NoxBot 3.0.25 - Auto Follow loader fix + campo nombre visible",
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
