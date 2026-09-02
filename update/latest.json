@@ -1,6 +1,6 @@
 {
-    "version":  "3.0.25",
-    "notes":  "NoxBot 3.0.25 - Auto Follow loader fix + campo nombre visible",
+    "version":  "3.0.26",
+    "notes":  "NoxBot 3.0.26 - Auto Follow Kondra: escaleras, agujeros, sin limite 8sqm",
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
