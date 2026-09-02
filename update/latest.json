@@ -1,7 +1,6 @@
 {
-    "version":  "3.0.16",
-    "lua_rev":  "8",
-    "notes":  "NoxBot 3.0.16 - Private Scripts flat fallback for old updater (lua_rev 8).",
+    "version":  "3.0.17",
+    "notes":  "NoxBot 3.0.17 - Seguridad: motor/sigs fuera del canal publico; descarga autenticada.",
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
@@ -17,7 +16,8 @@
                   },
                   {
                       "name":  "nox_lua.zip",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/nox_lua.zip"
+                      "url":  "https://api.github.com/repos/adrianito1234-debug/NoxBot-Private/contents/nox_lua.zip",
+                      "private":  true
                   }
               ]
 }
