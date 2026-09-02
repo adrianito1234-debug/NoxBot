@@ -1,6 +1,6 @@
 {
-    "version":  "3.0.32",
-    "notes":  "NoxBot 3.0.32 - Hold Position nativo loader (sin Private Scripts)",
+    "version":  "3.0.33",
+    "notes":  "NoxBot 3.0.33 - eliminado Hold Position",
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
