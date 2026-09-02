@@ -1,6 +1,6 @@
 {
-    "version":  "3.0.19",
-    "notes":  "NoxBot 3.0.19 - CDN fix + Auto Follow Setup",
+    "version":  "3.0.20",
+    "notes":  "NoxBot 3.0.20 - Auto Follow fix",
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
