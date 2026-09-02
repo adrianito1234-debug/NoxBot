@@ -1,6 +1,6 @@
 {
-    "version":  "3.0.28",
-    "notes":  "NoxBot 3.0.28 - Auto Follow allowUnseen + escaleras click",
+    "version":  "3.0.29",
+    "notes":  "NoxBot 3.0.29 - eliminado Auto Follow",
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
