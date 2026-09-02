@@ -1,7 +1,7 @@
 {
-    "version":  "3.0.14",
+    "version":  "3.0.15",
     "lua_rev":  "2",
-    "notes":  "NoxBot 3.0.14 - launcher staging (.new) + version.txt en UI.",
+    "notes":  "NoxBot 3.0.15 - fix autoupdate (lua publico, bins .new).",
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
@@ -14,10 +14,6 @@
                   {
                       "name":  "NoxBotUpdater.exe",
                       "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotUpdater.exe"
-                  },
-                  {
-                      "name":  "nox_lua.zip",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/nox_lua.zip"
                   }
               ]
 }
