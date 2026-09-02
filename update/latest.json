@@ -1,6 +1,7 @@
 {
     "version":  "3.0.17",
-    "notes":  "NoxBot 3.0.17 - Seguridad: motor/sigs fuera del canal publico; descarga autenticada.",
+    "lua_rev":  "9",
+    "notes":  "NoxBot 3.0.17 - Auto Follow Setup + version sync (lua_rev 9).",
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
@@ -16,8 +17,7 @@
                   },
                   {
                       "name":  "nox_lua.zip",
-                      "url":  "https://api.github.com/repos/adrianito1234-debug/NoxBot-Private/contents/nox_lua.zip",
-                      "private":  true
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/nox_lua.zip"
                   }
               ]
 }
