@@ -1,6 +1,6 @@
 {
-    "version":  "3.0.26",
-    "notes":  "NoxBot 3.0.26 - Auto Follow Kondra: escaleras, agujeros, sin limite 8sqm",
+    "version":  "3.0.27",
+    "notes":  "NoxBot 3.0.27 - Auto Follow sin delay error + mas rapido",
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
