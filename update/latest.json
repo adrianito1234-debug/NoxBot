@@ -1,6 +1,7 @@
 {
-    "version":  "3.0.12",
-    "notes":  "NoxBot 3.0.12 - Sigs cloud (KeyAuth+GitHub), motor embebido comercial, pepper v2.",
+    "version":  "3.0.13",
+    "lua_rev":  "1",
+    "notes":  "NoxBot 3.0.13 - UI version sync (__nox_ver), lua_rev autoupdate.",
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
