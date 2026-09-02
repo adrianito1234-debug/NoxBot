@@ -1,7 +1,7 @@
 {
     "version":  "3.0.17",
-    "lua_rev":  "9",
-    "notes":  "NoxBot 3.0.17 - Auto Follow Setup + version sync (lua_rev 9).",
+    "lua_rev":  "10",
+    "notes":  "NoxBot 3.0.17 - Auto Follow Setup + version sync (lua_rev 10).",
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
