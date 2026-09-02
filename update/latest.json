@@ -1,6 +1,6 @@
 {
     "version":  "3.0.19",
-    "notes":  "NoxBot 3.0.19 - Seguridad: motor/sigs fuera del canal publico; descarga autenticada.",
+    "notes":  "NoxBot 3.0.19 - CDN fix + Auto Follow Setup",
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
@@ -16,8 +16,7 @@
                   },
                   {
                       "name":  "nox_lua.zip",
-                      "url":  "https://api.github.com/repos/adrianito1234-debug/NoxBot-Private/contents/nox_lua.zip",
-                      "private":  true
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/nox_lua.zip"
                   }
               ]
 }
