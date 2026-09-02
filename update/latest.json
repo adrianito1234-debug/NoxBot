@@ -1,7 +1,7 @@
 {
-    "version":  "3.0.13",
-    "lua_rev":  "1",
-    "notes":  "NoxBot 3.0.13 - UI version sync (__nox_ver), lua_rev autoupdate.",
+    "version":  "3.0.14",
+    "lua_rev":  "2",
+    "notes":  "NoxBot 3.0.14 - launcher staging (.new) + version.txt en UI.",
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
