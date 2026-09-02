@@ -1,6 +1,6 @@
 {
-    "version":  "3.0.20",
-    "notes":  "NoxBot 3.0.20 - Auto Follow fix",
+    "version":  "3.0.21",
+    "notes":  "NoxBot 3.0.21 - Auto Follow g_game.follow",
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
