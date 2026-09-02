@@ -1,7 +1,7 @@
 {
     "version":  "3.0.16",
-    "lua_rev":  "5",
-    "notes":  "NoxBot 3.0.16 - Private Scripts + version sync (lua_rev 5).",
+    "lua_rev":  "6",
+    "notes":  "NoxBot 3.0.16 - Fix version sync + Private Scripts community folder (lua_rev 6).",
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
