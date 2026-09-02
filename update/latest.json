@@ -1,6 +1,6 @@
 {
-    "version":  "3.0.31",
-    "notes":  "NoxBot 3.0.31 - Hold Position fix lazy load + walk",
+    "version":  "3.0.32",
+    "notes":  "NoxBot 3.0.32 - Hold Position nativo loader (sin Private Scripts)",
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
