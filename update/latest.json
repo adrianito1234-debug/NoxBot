@@ -1,6 +1,6 @@
 {
-    "version":  "3.0.29",
-    "notes":  "NoxBot 3.0.29 - eliminado Auto Follow",
+    "version":  "3.0.30",
+    "notes":  "NoxBot 3.0.30 - Hold Position (1/1 test)",
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
