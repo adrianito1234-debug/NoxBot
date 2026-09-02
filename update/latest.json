@@ -1,6 +1,6 @@
 {
-    "version":  "3.0.21",
-    "notes":  "NoxBot 3.0.21 - Auto Follow g_game.follow",
+    "version":  "3.0.22",
+    "notes":  "NoxBot 3.0.22 - Auto Follow spaces + chase fix",
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
