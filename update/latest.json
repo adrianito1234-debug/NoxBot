@@ -1,7 +1,7 @@
 {
     "version":  "3.0.15",
-    "lua_rev":  "3",
-    "notes":  "NoxBot 3.0.15 - NoxBot Scripts section (lua_rev 3).",
+    "lua_rev":  "4",
+    "notes":  "NoxBot 3.0.15 - NoxBot Scripts section (lua_rev 4).",
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
