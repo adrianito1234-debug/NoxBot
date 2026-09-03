@@ -1,6 +1,6 @@
-﻿{
-    "version":  "3.0.33",
-    "notes":  "NoxBot 3.0.33 - licencia case-sensitive (minusculas OK)",
+{
+    "version":  "3.0.34",
+    "notes":  "NoxBot 3.0.34 - menos spam visual de cura (prioridad HP igual)",
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
