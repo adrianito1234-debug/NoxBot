@@ -1,6 +1,6 @@
 {
-    "version":  "3.0.34",
-    "notes":  "NoxBot 3.0.34 - menos spam visual de cura (prioridad HP igual)",
+    "version":  "3.0.35",
+    "notes":  "NoxBot 3.0.35 - update completo: UI fondo rojo NoxBot, un solo launcher (sin .new.exe), keys KeyAuth case-sensitive, menos humo en curas HP, limpia Hold Position/Auto Follow fallidos",
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
