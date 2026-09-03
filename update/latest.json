@@ -1,6 +1,6 @@
 {
-    "version":  "3.0.35",
-    "notes":  "NoxBot 3.0.35 - update completo: UI fondo rojo NoxBot, un solo launcher (sin .new.exe), keys KeyAuth case-sensitive, menos humo en curas HP, limpia Hold Position/Auto Follow fallidos",
+    "version":  "3.0.36",
+    "notes":  "NoxBot 3.0.36 - Private Scripts: Hold Position, Anti-Push, Auto Exani hur, Fight Back (chase hasta muerte), Last Exiva, SSA/AOL; Private Scripts colapsable; PUSHMAX y ComboBot dentro de Private Scripts; Pick up mas rapido",
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
