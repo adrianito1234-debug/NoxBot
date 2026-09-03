@@ -1,6 +1,6 @@
 {
-    "version":  "3.0.37",
-    "notes":  "NoxBot 3.0.37 - Private Scripts header mas visible (dorado + flecha abrir/cerrar)",
+    "version":  "3.0.38",
+    "notes":  "NoxBot 3.0.38 - Private Scripts: icono ASCII [+]/[-] (fix encoding OTClient)",
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
