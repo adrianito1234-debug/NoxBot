@@ -1,6 +1,6 @@
 {
-    "version":  "3.0.38",
-    "notes":  "NoxBot 3.0.38 - Private Scripts: icono ASCII [+]/[-] (fix encoding OTClient)",
+    "version":  "3.0.39",
+    "notes":  "NoxBot 3.0.39 - Nuevo logo Eclipse (luna + N) en UI e iconos",
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
