@@ -1,6 +1,6 @@
 {
-    "version":  "3.0.40",
-    "notes":  "NoxBot 3.0.40 - BotServer relay restored (ComboBot / party sync)",
+    "version":  "3.0.41",
+    "notes":  "NoxBot 3.0.41 - Enemy Near, Ring Swap, Fight Back chase fix, BotServer relay",
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
