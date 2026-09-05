@@ -1,6 +1,6 @@
 {
-    "version":  "3.0.41",
-    "notes":  "NoxBot 3.0.41 - Enemy Near, Ring Swap, Fight Back chase fix, BotServer relay",
+    "version":  "4.0.0",
+    "notes":  "NoxBot 4.0.0 - Full release: Fight Zone, Private Scripts, BotServer, QuickLoot, Pick up x3",
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
