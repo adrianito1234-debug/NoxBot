@@ -1,22 +1,28 @@
 {
     "version":  "4.0.0",
-    "notes":  "NoxBot 4.0.0 - Full release: Fight Zone, Private Scripts, BotServer, QuickLoot, Pick up x3",
+    "notes":  "NoxBot 4.0.0 signed channel",
+    "lua_rev":  "",
+    "sig":  "156cc176e9ff037d59b5f5ac7d9e667e7b586b5e8a6b943324790cff68070bb3",
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotLauncher.exe"
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotLauncher.exe",
+                      "sha256":  "0480b33aa35b2cbcde57bb5f8724099642fb12d1872380b042dc37e5cbae5674"
                   },
                   {
                       "name":  "NoxBotBridge.dll",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotBridge.dll"
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotBridge.dll",
+                      "sha256":  "068bfbaa05019efb816fe12db643a1a53091ff667e29c08d47002b4d3319f444"
                   },
                   {
                       "name":  "NoxBotUpdater.exe",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotUpdater.exe"
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotUpdater.exe",
+                      "sha256":  "381a5ca766058ce472c49a3d026ef87a1dfb2842f944af3d9f2a19674ca4af0d"
                   },
                   {
                       "name":  "nox_lua.zip",
                       "url":  "https://api.github.com/repos/adrianito1234-debug/NoxBot-Private/contents/nox_lua.zip",
+                      "sha256":  "8e596d4122d7b07da157c4a1b4ca1d18a83b92911011cfdcb34285021dc2ac68",
                       "private":  true
                   }
               ]
