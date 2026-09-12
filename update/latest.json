@@ -1,8 +1,8 @@
 {
     "version":  "4.0.5",
-    "notes":  "Loot switch: off=manual, on=QL. Lua nxl on public channel.",
+    "notes":  "NoxBot 4.0.5",
     "lua_rev":  "",
-    "sig":  "9188f934850e4d196e3a39e46eb92c7eb4ca881d93dc659e01b2bc518bae981d",
+    "sig":  "46905399896703bd69c96c6f7f2c39434541f8c4bfaf773eff378f35136447a8",
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
@@ -21,8 +21,9 @@
                   },
                   {
                       "name":  "nox_lua.zip",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/nox_lua.zip?v=4.0.5",
-                      "sha256":  "7d1c33450d186b8b99627ba84c47738e74e55fdd0fd48bf8eff58906303f32ab"
+                      "url":  "https://api.github.com/repos/adrianito1234-debug/NoxBot-Private/contents/nox_lua.zip",
+                      "sha256":  "821e75ff351e11cf084f38aa0f440e3b1b7b0af48acac4b31fd2980725239c27",
+                      "private":  true
                   }
               ]
 }
