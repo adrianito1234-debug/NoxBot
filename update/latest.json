@@ -1,28 +1,28 @@
 {
-    "version":  "4.0.5",
-    "notes":  "NoxBot 4.0.5",
+    "version":  "4.0.6",
+    "notes":  "NoxBot 4.0.6: private sigs fetch.",
     "lua_rev":  "",
-    "sig":  "46905399896703bd69c96c6f7f2c39434541f8c4bfaf773eff378f35136447a8",
+    "sig":  "b99ea4a4dd433bc338d83cad4ce761108968796d2d58eb5715bbe1e3a5813196",
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotLauncher.exe?v=4.0.5",
-                      "sha256":  "988c95738422a24840534ab96adacec06a9d858ce8889fc530d25496efa4462a"
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotLauncher.exe?v=4.0.6",
+                      "sha256":  "7cdabec1454a7729b7a889b78d395ba630f31e98b2a54ebb7ecefa479e94af25"
                   },
                   {
                       "name":  "NoxBotBridge.dll",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotBridge.dll?v=4.0.5",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotBridge.dll?v=4.0.6",
                       "sha256":  "5fb6c1d6c46153dbb9c245923f23a81f1bfc2ea542fe436cfc77dda694434da3"
                   },
                   {
                       "name":  "NoxBotUpdater.exe",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotUpdater.exe?v=4.0.5",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotUpdater.exe?v=4.0.6",
                       "sha256":  "dfb8eace1eacc517c755cfb6cd96fc9d8c2d9e76b8403d4d35b2cfa04d149165"
                   },
                   {
                       "name":  "nox_lua.zip",
                       "url":  "https://api.github.com/repos/adrianito1234-debug/NoxBot-Private/contents/nox_lua.zip",
-                      "sha256":  "821e75ff351e11cf084f38aa0f440e3b1b7b0af48acac4b31fd2980725239c27",
+                      "sha256":  "c1e5d14fc1c467c001dadc2ccf2cc61612c73115cf219fbd7c06a568bcc67e8f",
                       "private":  true
                   }
               ]
