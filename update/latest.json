@@ -1,28 +1,28 @@
 {
-    "version":  "4.0.3",
-    "notes":  "License paste. Antica Retro + Nostalrius.",
+    "version":  "4.0.4",
+    "notes":  "Loot switch: off=manual, on=QL. Antica Retro sigs.",
     "lua_rev":  "",
-    "sig":  "cd214e28895808309a0c022506c26627026ffe3ef5d466ad9aa97fa2b3f910ac",
+    "sig":  "69eea7634d6fe538553d66a4288c328ee059e6900840ee7dc15879be051cc591",
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotLauncher.exe?v=4.0.3",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotLauncher.exe?v=4.0.4",
                       "sha256":  "988c95738422a24840534ab96adacec06a9d858ce8889fc530d25496efa4462a"
                   },
                   {
                       "name":  "NoxBotBridge.dll",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotBridge.dll?v=4.0.3",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotBridge.dll?v=4.0.4",
                       "sha256":  "5fb6c1d6c46153dbb9c245923f23a81f1bfc2ea542fe436cfc77dda694434da3"
                   },
                   {
                       "name":  "NoxBotUpdater.exe",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotUpdater.exe?v=4.0.3",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotUpdater.exe?v=4.0.4",
                       "sha256":  "dfb8eace1eacc517c755cfb6cd96fc9d8c2d9e76b8403d4d35b2cfa04d149165"
                   },
                   {
                       "name":  "nox_lua.zip",
                       "url":  "https://api.github.com/repos/adrianito1234-debug/NoxBot-Private/contents/nox_lua.zip",
-                      "sha256":  "4eccea43770e3761394cd91919062553a37b6b46b19ba08dcb4ab02671ab3288",
+                      "sha256":  "b829fa30f6611201aef5a0b0e72079fe006b3c88aa0141b44b36f114a69f42d2",
                       "private":  true
                   }
               ]
