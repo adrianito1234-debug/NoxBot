@@ -1,23 +1,23 @@
 {
-    "version":  "4.0.10",
-    "notes":  "NoxBot 4.0.10: rebuild binarios (fix pepper de descifrado de sigs)",
+    "version":  "4.0.11",
+    "notes":  "NoxBot 4.0.11: rebuild limpio (pepper canonico) + restaura alias nostalrius.nxs",
     "lua_rev":  "",
-    "sig":  "fcf2a7ed221b0b8123f7d37d6f24e7f34beb4635a45ccec345630a88fe173c9b",
+    "sig":  "51b57c0682d3234b50be31ac213262787726c0dad08b1a5f128506b312d31d31",
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotLauncher.exe?v=4.0.10",
-                      "sha256":  "915d598626cf1a5977b6d42c905fae5b0ccdef478d8b49e21fc846045febbc41"
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotLauncher.exe?v=4.0.11",
+                      "sha256":  "07fc3bf03ccc571319c1bd6d4d4832db4e50652e9045be4a1cd248484533dd28"
                   },
                   {
                       "name":  "NoxBotBridge.dll",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotBridge.dll?v=4.0.10",
-                      "sha256":  "aff7221d5776814b65505443744d779d4492a5ee118def3c88ba8fb76883656a"
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotBridge.dll?v=4.0.11",
+                      "sha256":  "73f00352ec4d4397bae57383c78307644230e60768ab9f968ca11d093ed1a5c1"
                   },
                   {
                       "name":  "NoxBotUpdater.exe",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotUpdater.exe?v=4.0.10",
-                      "sha256":  "d4f62f3f7ceb4f0e553811d17e1cc6b41f6b208f27c9704397ae19c04b67bcf3"
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotUpdater.exe?v=4.0.11",
+                      "sha256":  "d4a2eaf7932bfb6934c9efccc8c6825fbd69e51a79583b528a1872f831294c0c"
                   },
                   {
                       "name":  "nox_lua.zip",
