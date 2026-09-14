@@ -1,23 +1,23 @@
 {
-    "version":  "4.0.14",
-    "notes":  "4.0.14: fuente pre-Claude + fixes Lua/DeusOT + sigs; HMAC igual",
+    "version":  "4.0.15",
+    "notes":  "4.0.15: panel vacio — ready ahora hace refresh (hold/ui_ready); HMAC igual",
     "lua_rev":  "",
-    "sig":  "afb5fff70e472894548c38ff20a2c14c2370bd074c4899716dbdb7d66c256469",
+    "sig":  "4cb5cb6471d78ed8af19d727c4e86d726514caa853b323c012f70ead7b4e49db",
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotLauncher.exe?v=4.0.14",
-                      "sha256":  "48452a8227767a6343d69911a1e91872aaf12c78dcbfe71d247a0f1af0218048"
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotLauncher.exe?v=4.0.15",
+                      "sha256":  "f955b814b1ecf147908b8c499ef6e0839452bc5797846785de0258d4a5b397de"
                   },
                   {
                       "name":  "NoxBotBridge.dll",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotBridge.dll?v=4.0.14",
-                      "sha256":  "bc420a2467573b835ee0c5cc7327c2cfadc07a832c3d7ba6330a5d5f670aa830"
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotBridge.dll?v=4.0.15",
+                      "sha256":  "52d439fbf035dde5e2a19ea00fe7af62fe5b956718eeb8b9043e2e9e612d5039"
                   },
                   {
                       "name":  "NoxBotUpdater.exe",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotUpdater.exe?v=4.0.14",
-                      "sha256":  "ca1d077d0a653043d79b1a33708236d7090f99885dd0efbc37ae9fd648838cd9"
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotUpdater.exe?v=4.0.15",
+                      "sha256":  "66c026779f20e3eb81e950e4ac75c7b8ed5d02d322d87eedb5c5d840b84ec27f"
                   },
                   {
                       "name":  "nox_lua.zip",
