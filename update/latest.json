@@ -1,22 +1,22 @@
 {
-    "version":  "4.0.11",
-    "notes":  "NoxBot 4.0.11: rebuild limpio (pepper canonico) + restaura alias nostalrius.nxs",
+    "version":  "4.0.12",
+    "notes":  "NoxBot 4.0.12: sigs via git/blobs (evita transcodificado de la API contents)",
     "lua_rev":  "",
-    "sig":  "51b57c0682d3234b50be31ac213262787726c0dad08b1a5f128506b312d31d31",
+    "sig":  "c50f1039127437943b7f43de7c7aaf8f9013ff3fa0cce81910eb684c647d0b78",
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotLauncher.exe?v=4.0.11",
-                      "sha256":  "07fc3bf03ccc571319c1bd6d4d4832db4e50652e9045be4a1cd248484533dd28"
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotLauncher.exe?v=4.0.12",
+                      "sha256":  "7d7b172a618037a79ad7c2155abf99226bc4e4ee7a6d655320184e7dab771ed9"
                   },
                   {
                       "name":  "NoxBotBridge.dll",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotBridge.dll?v=4.0.11",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotBridge.dll?v=4.0.12",
                       "sha256":  "73f00352ec4d4397bae57383c78307644230e60768ab9f968ca11d093ed1a5c1"
                   },
                   {
                       "name":  "NoxBotUpdater.exe",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotUpdater.exe?v=4.0.11",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotUpdater.exe?v=4.0.12",
                       "sha256":  "d4a2eaf7932bfb6934c9efccc8c6825fbd69e51a79583b528a1872f831294c0c"
                   },
                   {
