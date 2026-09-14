@@ -1,22 +1,22 @@
 {
-    "version":  "4.0.12",
-    "notes":  "NoxBot 4.0.12: sigs via git/blobs (evita transcodificado de la API contents)",
+    "version":  "4.0.13",
+    "notes":  "4.0.13: sigs git/blobs con sha via JSON",
     "lua_rev":  "",
-    "sig":  "c50f1039127437943b7f43de7c7aaf8f9013ff3fa0cce81910eb684c647d0b78",
+    "sig":  "fbc082c3847120e104e4bd8946b9d38e04021c52303dd15df9220ad9e05c34d2",
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotLauncher.exe?v=4.0.12",
-                      "sha256":  "7d7b172a618037a79ad7c2155abf99226bc4e4ee7a6d655320184e7dab771ed9"
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotLauncher.exe?v=4.0.13",
+                      "sha256":  "2a237de0494d5e7f17f84925ac72d5b91249ecd3b40f6e20416490b3888b9957"
                   },
                   {
                       "name":  "NoxBotBridge.dll",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotBridge.dll?v=4.0.12",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotBridge.dll?v=4.0.13",
                       "sha256":  "73f00352ec4d4397bae57383c78307644230e60768ab9f968ca11d093ed1a5c1"
                   },
                   {
                       "name":  "NoxBotUpdater.exe",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotUpdater.exe?v=4.0.12",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotUpdater.exe?v=4.0.13",
                       "sha256":  "d4a2eaf7932bfb6934c9efccc8c6825fbd69e51a79583b528a1872f831294c0c"
                   },
                   {
