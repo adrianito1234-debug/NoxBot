@@ -1,28 +1,28 @@
 {
-    "version":  "4.0.23",
-    "notes":  "NoxBot 4.0.23",
+    "version":  "4.0.24",
+    "notes":  "NoxBot 4.0.24",
     "lua_rev":  "",
-    "sig":  "3ee9bf16a709565ce80ad22ada2e2718d0e19694012b910aa72f5f00e9f0d11b",
+    "sig":  "3c5aecbcc1d13dfb5ac090f1bcf18e69332337146c96814584bab37b0d3d8596",
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotLauncher.exe?v=4.0.23",
-                      "sha256":  "f972ebd723a25554af5b21528a54f8abfeef47b353abada03af944f2e4ffe9d7"
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotLauncher.exe?v=4.0.24",
+                      "sha256":  "14d47e253dcfac0fe435ed365bef9848829ddc930022c3731776751bc36f7c9b"
                   },
                   {
                       "name":  "NoxBotBridge.dll",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotBridge.dll?v=4.0.23",
-                      "sha256":  "8c317d5a3a5546a59410e4a2ebeda38d9ae486b76973e1a00ae8a9863affea00"
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotBridge.dll?v=4.0.24",
+                      "sha256":  "1e2891729b82d505b6afd9703874ca0193cede3ec5350f41d8f477914e64dc26"
                   },
                   {
                       "name":  "NoxBotUpdater.exe",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotUpdater.exe?v=4.0.23",
-                      "sha256":  "1eebdcac1d7f82a92d2eb51cc06e8930d527c8c07cc579fd2f5443bc27c6aa99"
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotUpdater.exe?v=4.0.24",
+                      "sha256":  "cca5aa6ddb3de7389af4a28cb578290619be63a1234fe7a06078c9c49aa8a3f2"
                   },
                   {
                       "name":  "nox_lua.zip",
                       "url":  "https://api.github.com/repos/adrianito1234-debug/NoxBot-Private/contents/nox_lua.zip",
-                      "sha256":  "86b432abfc2c0107ad3d17c5f256733472852397688256a44723cea027d5b16b",
+                      "sha256":  "861129e9579187e0c41f9ecefb580ccac4c5a3d9a62d246ef562a25849a85984",
                       "private":  true
                   }
               ]
