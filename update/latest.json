@@ -1,28 +1,28 @@
 {
-    "version":  "4.0.29",
-    "notes":  "4.0.29 - validacion cada hora y cierre si faltan los ficheros de licencia",
+    "version":  "4.0.30",
+    "notes":  "4.0.30 - targeting no cancela el loot del cadaver en 7.4 sin quickloot",
     "lua_rev":  "",
-    "sig":  "0828cbf1e9db847ac6e5f161ef396959a79890f73d976cbfee51d060c9737b35",
+    "sig":  "0eec85232f66fbae5cc34187806a0b5f90089e6c031511e0c4bd01afcd5631ff",
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotLauncher.exe?v=4.0.29",
-                      "sha256":  "ade4546ba75d425c17906aa656581cd1ea0e352ed3f3bc89866feb86b5da0f74"
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotLauncher.exe?v=4.0.30",
+                      "sha256":  "4894a25b9bb4adbe2ef03239b3eb8a45b127157fbfdc525d2d8a72bea48b9196"
                   },
                   {
                       "name":  "NoxBotBridge.dll",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotBridge.dll?v=4.0.29",
-                      "sha256":  "ec927bdd33d7626dbd7df6b5a7ca4077bbe57773779fa36213bd365123c4931c"
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotBridge.dll?v=4.0.30",
+                      "sha256":  "8d8dd4d118591b0a8c269dadce8250a81e49741fb09e50e152546ed5471dc328"
                   },
                   {
                       "name":  "NoxBotUpdater.exe",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotUpdater.exe?v=4.0.29",
-                      "sha256":  "d47fa44cd27cba9f8f58882bd8cf1acafb8e4b98308265f634baffec6d023c26"
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotUpdater.exe?v=4.0.30",
+                      "sha256":  "f01bcd34e7e040f11e6de20d462ecd32bdcf78f90a42bff906a767ea700302a8"
                   },
                   {
                       "name":  "nox_lua.zip",
                       "url":  "https://api.github.com/repos/adrianito1234-debug/NoxBot-Private/contents/nox_lua.zip",
-                      "sha256":  "78fa16324f53cd803c20da104b1d27c41a3ba12386855e50fec31dd62ab9de53",
+                      "sha256":  "e1c29395e5ed9ce70aaa07d696f4f46956f018231c89a81b9a0f59a87a9456d7",
                       "private":  true
                   }
               ]
