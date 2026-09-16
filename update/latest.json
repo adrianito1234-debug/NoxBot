@@ -1,22 +1,22 @@
 {
-    "version":  "4.0.31",
-    "notes":  "4.0.31 - aviso OpenGL/DirectX no soportado antes de inyectar (deteccion por modulos, no por nombre de exe)",
+    "version":  "4.0.32",
+    "notes":  "4.0.32 - revierte NoxBotBridge.dll a la build de 4.0.30 (la de 4.0.31 disparaba falso positivo de anti-injeccion en pruebas de Retronic x32; el launcher x64 no se toca, solo el bridge). NoxBotLauncher.exe mantiene el aviso OpenGL/DirectX.",
     "lua_rev":  "",
-    "sig":  "86fe72acdba489c7be37b1ded1a7509908a83198c00201656b6dbe5753865c74",
+    "sig":  "c742947a44157f958336254f3d8defdbba496c32616fc445c45dcb9ea8452ed4",
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotLauncher.exe?v=4.0.31",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotLauncher.exe?v=4.0.32",
                       "sha256":  "efcd50eab56ef442d2ef724d798d1c6bbd69ea1ec02a9ac4ee5a83aec70f53bf"
                   },
                   {
                       "name":  "NoxBotBridge.dll",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotBridge.dll?v=4.0.31",
-                      "sha256":  "b1f6092730e37c471ac67299275bf07eb5df5d42e4898502ba69afe2a5a1aa0e"
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotBridge.dll?v=4.0.32",
+                      "sha256":  "8d8dd4d118591b0a8c269dadce8250a81e49741fb09e50e152546ed5471dc328"
                   },
                   {
                       "name":  "NoxBotUpdater.exe",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotUpdater.exe?v=4.0.31",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotUpdater.exe?v=4.0.32",
                       "sha256":  "ad374afe1b3b9a60a4c52492c10fb32780a64d534c3636ac79ab9fed4c4a274f"
                   },
                   {
