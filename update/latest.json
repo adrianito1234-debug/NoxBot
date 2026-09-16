@@ -1,28 +1,28 @@
 {
-    "version":  "4.0.30",
-    "notes":  "4.0.30 - targeting no cancela el loot del cadaver en 7.4 sin quickloot",
+    "version":  "4.0.31",
+    "notes":  "4.0.31 - aviso OpenGL/DirectX no soportado antes de inyectar (deteccion por modulos, no por nombre de exe)",
     "lua_rev":  "",
-    "sig":  "0eec85232f66fbae5cc34187806a0b5f90089e6c031511e0c4bd01afcd5631ff",
+    "sig":  "86fe72acdba489c7be37b1ded1a7509908a83198c00201656b6dbe5753865c74",
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotLauncher.exe?v=4.0.30",
-                      "sha256":  "4894a25b9bb4adbe2ef03239b3eb8a45b127157fbfdc525d2d8a72bea48b9196"
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotLauncher.exe?v=4.0.31",
+                      "sha256":  "efcd50eab56ef442d2ef724d798d1c6bbd69ea1ec02a9ac4ee5a83aec70f53bf"
                   },
                   {
                       "name":  "NoxBotBridge.dll",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotBridge.dll?v=4.0.30",
-                      "sha256":  "8d8dd4d118591b0a8c269dadce8250a81e49741fb09e50e152546ed5471dc328"
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotBridge.dll?v=4.0.31",
+                      "sha256":  "b1f6092730e37c471ac67299275bf07eb5df5d42e4898502ba69afe2a5a1aa0e"
                   },
                   {
                       "name":  "NoxBotUpdater.exe",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotUpdater.exe?v=4.0.30",
-                      "sha256":  "f01bcd34e7e040f11e6de20d462ecd32bdcf78f90a42bff906a767ea700302a8"
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotUpdater.exe?v=4.0.31",
+                      "sha256":  "ad374afe1b3b9a60a4c52492c10fb32780a64d534c3636ac79ab9fed4c4a274f"
                   },
                   {
                       "name":  "nox_lua.zip",
                       "url":  "https://api.github.com/repos/adrianito1234-debug/NoxBot-Private/contents/nox_lua.zip",
-                      "sha256":  "e1c29395e5ed9ce70aaa07d696f4f46956f018231c89a81b9a0f59a87a9456d7",
+                      "sha256":  "a79345ac5d105d0cfb045a932b2ee5f1d1757434c54044d295d8892b81a7fe25",
                       "private":  true
                   }
               ]
