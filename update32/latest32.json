@@ -1,22 +1,22 @@
 {
-    "version":  "1.0.0",
+    "version":  "4.0.32",
     "notes":  "SKU-32 (Retronic/x86) - canal de auto-update independiente del x64. Primer publish: launcher32 con aviso OpenGL/DirectX, bridge32/inject32 probados en vivo hoy.",
     "lua_rev":  "",
-    "sig":  "41923a098511fb1ed0e0edc8965895f1faa8357afa7142e1eabfb1a6dc6031b9",
+    "sig":  "09501b2aeacc0fb4487604a86dbddfa2e8fed0747de355ce197ff60bc71685fe",
     "files":  [
                   {
                       "name":  "NoxBotLauncher32.exe",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update32/files32/NoxBotLauncher32.exe?v=1.0.0",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update32/files32/NoxBotLauncher32.exe?v=4.0.32",
                       "sha256":  "ce07a9fff20a9ae4250531d331483df53fa92226e6193eb7243bbdda6b78582f"
                   },
                   {
                       "name":  "NoxBotBridge32.dll",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update32/files32/NoxBotBridge32.dll?v=1.0.0",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update32/files32/NoxBotBridge32.dll?v=4.0.32",
                       "sha256":  "192ff5d31364421ea245ddb7e0885a99bf2795ad883d2ad420fbe2f3d522598e"
                   },
                   {
                       "name":  "NoxInject32.exe",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update32/files32/NoxInject32.exe?v=1.0.0",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update32/files32/NoxInject32.exe?v=4.0.32",
                       "sha256":  "a54935b5e0ddbbb4cda1112a8e776786f126ead7f2cf95a3ef5e2c84576d9472"
                   }
               ]
