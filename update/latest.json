@@ -1,28 +1,28 @@
 {
-    "version":  "4.0.32",
-    "notes":  "4.0.32 - revierte NoxBotBridge.dll a la build de 4.0.30 (la de 4.0.31 disparaba falso positivo de anti-injeccion en pruebas de Retronic x32; el launcher x64 no se toca, solo el bridge). NoxBotLauncher.exe mantiene el aviso OpenGL/DirectX.",
+    "version":  "4.0.33",
+    "notes":  "4.0.33 - Setup/Edit windows stay usable; TargetBot On actually starts the attack macro. Bridge x64 unchanged from 4.0.32.",
     "lua_rev":  "",
-    "sig":  "c742947a44157f958336254f3d8defdbba496c32616fc445c45dcb9ea8452ed4",
+    "sig":  "d01c57d6340d4a384b2c621dc2c154947bbaf7b2185ef348b3ce61822a4a6b89",
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotLauncher.exe?v=4.0.32",
-                      "sha256":  "efcd50eab56ef442d2ef724d798d1c6bbd69ea1ec02a9ac4ee5a83aec70f53bf"
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotLauncher.exe?v=4.0.33",
+                      "sha256":  "46529452aa72fa0236ae41f2400e068dddd5cc50b5f0be0ac7b660886a28b323"
                   },
                   {
                       "name":  "NoxBotBridge.dll",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotBridge.dll?v=4.0.32",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotBridge.dll?v=4.0.33",
                       "sha256":  "8d8dd4d118591b0a8c269dadce8250a81e49741fb09e50e152546ed5471dc328"
                   },
                   {
                       "name":  "NoxBotUpdater.exe",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotUpdater.exe?v=4.0.32",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotUpdater.exe?v=4.0.33",
                       "sha256":  "ad374afe1b3b9a60a4c52492c10fb32780a64d534c3636ac79ab9fed4c4a274f"
                   },
                   {
                       "name":  "nox_lua.zip",
                       "url":  "https://api.github.com/repos/adrianito1234-debug/NoxBot-Private/contents/nox_lua.zip",
-                      "sha256":  "a79345ac5d105d0cfb045a932b2ee5f1d1757434c54044d295d8892b81a7fe25",
+                      "sha256":  "702d233649150da0fc6713302ec9146e0f655bc48bfc327b004be674d4e580bf",
                       "private":  true
                   }
               ]
