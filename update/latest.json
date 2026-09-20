@@ -1,28 +1,28 @@
 {
-    "version":  "4.0.34",
-    "notes":  "4.0.34 - fix: cambiar de personaje sin cerrar el cliente ya carga bien la UI/scripts del char nuevo (online() ya no se saltaba el refresh por ChangedProfile cuando el nombre del char cambiaba). Binarios sin cambios desde 4.0.33.",
-    "lua_rev":  "4.0.34",
-    "sig":  "b64eddb679b0795270bc2c4a13268fe3096ccfcea2adc6477e00aaee3476fc2c",
+    "version":  "4.0.40",
+    "notes":  "4.0.40 - fix: tras matar un target, Haste (utani gran hur) y Utamo Vita tardaban muchisimo en salir mientras la pestana HP bebia manas (un \u0027You are exhausted.\u0027 de las manas re-armaba el cooldown interno de soporte). Haste ya sale tambien parado justo despues de perder el target. TargetBot ya no engancha bichos sin linea de tiro (pared en medio). Binarios sin cambios.",
+    "lua_rev":  "4.0.40",
+    "sig":  "fd5e714bfd72398afd4f1d2e2d94d20245b20e221005790df750258d099817f4",
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotLauncher.exe?v=4.0.34",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotLauncher.exe?v=4.0.40",
                       "sha256":  "46529452aa72fa0236ae41f2400e068dddd5cc50b5f0be0ac7b660886a28b323"
                   },
                   {
                       "name":  "NoxBotBridge.dll",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotBridge.dll?v=4.0.34",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotBridge.dll?v=4.0.40",
                       "sha256":  "8d8dd4d118591b0a8c269dadce8250a81e49741fb09e50e152546ed5471dc328"
                   },
                   {
                       "name":  "NoxBotUpdater.exe",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotUpdater.exe?v=4.0.34",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotUpdater.exe?v=4.0.40",
                       "sha256":  "ad374afe1b3b9a60a4c52492c10fb32780a64d534c3636ac79ab9fed4c4a274f"
                   },
                   {
                       "name":  "nox_lua.zip",
                       "url":  "https://api.github.com/repos/adrianito1234-debug/NoxBot-Private/contents/nox_lua.zip",
-                      "sha256":  "f953933a6dd8562babd85cc2299e6d722dade19ad196a6febe8385d77b6c6f75",
+                      "sha256":  "d59cffd89bc41a290dc3b28886478d0d43d6d0b7eec49db40c29bd8b89bb3124",
                       "private":  true
                   }
               ]
