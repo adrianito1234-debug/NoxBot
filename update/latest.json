@@ -2,7 +2,7 @@
     "version":  "4.0.40",
     "notes":  "4.0.40 - fix: tras matar un target, Haste (utani gran hur) y Utamo Vita tardaban muchisimo en salir mientras la pestana HP bebia manas (un \u0027You are exhausted.\u0027 de las manas re-armaba el cooldown interno de soporte). Haste ya sale tambien parado justo despues de perder el target. TargetBot ya no engancha bichos sin linea de tiro (pared en medio). Binarios sin cambios.",
     "lua_rev":  "4.0.40",
-    "sig":  "fd5e714bfd72398afd4f1d2e2d94d20245b20e221005790df750258d099817f4",
+    "sig":  "b7d31492110b4b145d8d7c7b2844d78390a6244cd38275eeee18489512fb491e",
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
@@ -21,9 +21,8 @@
                   },
                   {
                       "name":  "nox_lua.zip",
-                      "url":  "https://api.github.com/repos/adrianito1234-debug/NoxBot-Private/contents/nox_lua.zip",
-                      "sha256":  "d59cffd89bc41a290dc3b28886478d0d43d6d0b7eec49db40c29bd8b89bb3124",
-                      "private":  true
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/nox_lua.zip?v=4.0.40",
+                      "sha256":  "9245f02ea2c51134bed93230ec5780ebfa834b52243d127d1303491ffe91a96d"
                   }
               ]
 }
