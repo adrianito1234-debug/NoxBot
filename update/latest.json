@@ -1,28 +1,28 @@
 {
-    "version":  "4.0.42",
-    "notes":  "4.0.42 - FIX: la lista de personajes del launcher parpadeaba y se vaciaba entera cada 800ms (el poll de clientes primero borraba el listbox y luego escaneaba procesos + un EnumWindows por cada cliente; con muchos clientes abiertos ese hueco vacio duraba mas y los clicks caian en la fila equivocada). Ahora el escaneo se hace aparte y el listbox solo se reconstruye si de verdad cambio algo (se abrio/cerro un cliente, cambio el nombre, se marco injected); si no cambio nada no se toca -\u003e cero parpadeo. Deteccion/inyeccion por cliente (Nostalrius/Olders/Antica/Retronic) sin tocar. NoxBotBridge.dll y NoxBotUpdater.exe SIN CAMBIOS (mismos binarios probados desde 4.0.32/4.0.31).",
-    "lua_rev":  "4.0.42",
-    "sig":  "588eaab9487fc642e00761c6c9b12445fa921ae49cc5b45db300826c60ec80d0",
+    "version":  "4.0.43",
+    "notes":  "4.0.43 - FIX adicional al launcher (sigue del 4.0.42): 1) ventanas del launcher que nunca llegaban a Activate se quedaban abiertas para siempre aunque cerraras todos los clientes (dias enteros); ahora si no hay ningun cliente conocido y nunca se activo nada durante 90s seguidos, se cierra sola (cualquier cliente detectado reinicia la cuenta). 2) al cerrar el launcher (boton X) se llamaba DOS veces al fetch de update, una de ellas bloqueando el hilo de UI hasta 120s si la red iba lenta (cierre colgado) y pudiendo dejar un NoxBotUpdater.exe extra suelto; ahora una sola llamada, no bloqueante, en el cierre real de la ventana -\u003e cierre instantaneo (medido ~0.4s), cero procesos residuales. Deteccion/inyeccion por cliente sin tocar. NoxBotBridge.dll y NoxBotUpdater.exe SIN CAMBIOS (mismos binarios probados desde 4.0.32/4.0.31).",
+    "lua_rev":  "4.0.43",
+    "sig":  "a2752ca6119f51f3130651ffd22950850bc85f43f7d0c61a4ced38689e599c5e",
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotLauncher.exe?v=4.0.42",
-                      "sha256":  "a808b8f279c8e2b729c9dbf62bd22c716437a799abc20d95f60eecac06964c94"
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotLauncher.exe?v=4.0.43",
+                      "sha256":  "ae9c1932e60af22335e5b92b8a8330fa61bf98a3d7e700130657ed867f2a29c4"
                   },
                   {
                       "name":  "NoxBotBridge.dll",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotBridge.dll?v=4.0.42",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotBridge.dll?v=4.0.43",
                       "sha256":  "8d8dd4d118591b0a8c269dadce8250a81e49741fb09e50e152546ed5471dc328"
                   },
                   {
                       "name":  "NoxBotUpdater.exe",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotUpdater.exe?v=4.0.42",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotUpdater.exe?v=4.0.43",
                       "sha256":  "ad374afe1b3b9a60a4c52492c10fb32780a64d534c3636ac79ab9fed4c4a274f"
                   },
                   {
                       "name":  "nox_lua.zip",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/nox_lua.zip?v=4.0.42",
-                      "sha256":  "7c06d9026ef8ee6348e4cc8ebd94ece9cf08e4f76f8157e55108307361d57c20"
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/nox_lua.zip?v=4.0.43",
+                      "sha256":  "2b0dd396e34d31e2cc4dc1d0bf0210a8864940497050127979f918c96f49b221"
                   }
               ]
 }
