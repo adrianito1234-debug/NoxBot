@@ -1,28 +1,28 @@
 {
-    "version":  "4.0.41",
-    "notes":  "4.0.41 - FIX CRITICO: el bot pisaba g_game.useInventoryItemWith (que usan tambien los hotkeys del cliente tipo \u0027use object on yourself\u0027) y mientras el HP estaba en la banda de cura bloqueaba beber mana/pociones incluso a mano -\u003e en 8.0 sin mana no puedes curar = espiral de muerte. Ahora solo las runas de ATAQUE ceden a la cura; pociones/mana/vida y el hotkey manual del jugador NUNCA se bloquean. La mana del bot ya no cede a la cura de HP. Binarios sin cambios.",
-    "lua_rev":  "4.0.41",
-    "sig":  "755f5c191af8d9bdff0ab1ed1ec700e80f41aa0ac74dbda94b9348c1184689dd",
+    "version":  "4.0.42",
+    "notes":  "4.0.42 - FIX: la lista de personajes del launcher parpadeaba y se vaciaba entera cada 800ms (el poll de clientes primero borraba el listbox y luego escaneaba procesos + un EnumWindows por cada cliente; con muchos clientes abiertos ese hueco vacio duraba mas y los clicks caian en la fila equivocada). Ahora el escaneo se hace aparte y el listbox solo se reconstruye si de verdad cambio algo (se abrio/cerro un cliente, cambio el nombre, se marco injected); si no cambio nada no se toca -\u003e cero parpadeo. Deteccion/inyeccion por cliente (Nostalrius/Olders/Antica/Retronic) sin tocar. NoxBotBridge.dll y NoxBotUpdater.exe SIN CAMBIOS (mismos binarios probados desde 4.0.32/4.0.31).",
+    "lua_rev":  "4.0.42",
+    "sig":  "588eaab9487fc642e00761c6c9b12445fa921ae49cc5b45db300826c60ec80d0",
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotLauncher.exe?v=4.0.41",
-                      "sha256":  "46529452aa72fa0236ae41f2400e068dddd5cc50b5f0be0ac7b660886a28b323"
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotLauncher.exe?v=4.0.42",
+                      "sha256":  "a808b8f279c8e2b729c9dbf62bd22c716437a799abc20d95f60eecac06964c94"
                   },
                   {
                       "name":  "NoxBotBridge.dll",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotBridge.dll?v=4.0.41",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotBridge.dll?v=4.0.42",
                       "sha256":  "8d8dd4d118591b0a8c269dadce8250a81e49741fb09e50e152546ed5471dc328"
                   },
                   {
                       "name":  "NoxBotUpdater.exe",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotUpdater.exe?v=4.0.41",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotUpdater.exe?v=4.0.42",
                       "sha256":  "ad374afe1b3b9a60a4c52492c10fb32780a64d534c3636ac79ab9fed4c4a274f"
                   },
                   {
                       "name":  "nox_lua.zip",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/nox_lua.zip?v=4.0.41",
-                      "sha256":  "2045d4208d959e7fbdd585e3d7537eb3179c9ae72607b5e16ac7453987175255"
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/nox_lua.zip?v=4.0.42",
+                      "sha256":  "7c06d9026ef8ee6348e4cc8ebd94ece9cf08e4f76f8157e55108307361d57c20"
                   }
               ]
 }
