@@ -1,28 +1,28 @@
 {
-    "version":  "4.0.50",
-    "notes":  "4.0.50 - FIX: a veces el targeting (y en general cualquier On/Off de TargetBot/CaveBot) se quedaba pillado tras un rato -- se activaba o desactivaba desde la UI y no hacia nada hasta apagar y encender el bot entero. Causa: un delay interno se podia quedar atascado en el futuro (o un fallo puntual leyendo el JSON de config) y mientras tanto el motor ni siquiera comprobaba si habias tocado el switch. Ahora hay un vigilante independiente que corre cada 1s y corrige solo el desajuste On/Off al momento, sin esperar a un reinicio completo (en CaveBot solo se sincroniza On/Off, sin tocar su delay interno, porque ahi se usa a proposito para esperas largas configurables). Ademas: Utamo Vita (Magic Shield) ahora se renueva 5 segundos ANTES de que expire en vez de esperar a que ya se haya caido -- antes, entre que el escudo se acababa y el bot lograba recastear, podia haber un hueco sin escudo. Deteccion/inyeccion por cliente, bridge y updater sin tocar (mismos binarios probados).",
-    "lua_rev":  "4.0.50",
-    "sig":  "d5a7ddc77fcd4727efadb441e67de6c63ce9c984daf2452519c1b5ccc3196e53",
+    "version":  "4.0.51",
+    "notes":  "4.0.51 - Utani Gran Hur (y Haste en general) reintentaba tarde cuando chocaba con el exhaust compartido de hechizos de soporte (Utamo Vita / Utana Vid / Haste / Antiparalise comparten el mismo cajon de 2s, simulando el exhaust real del server). Se recorta ese hueco a 1.7s solo para el grupo de soporte -- se reintenta un poco mas rapido sin llegar a spamear \u0027you are exhausted\u0027. El exhaust de ataque/cura no se toca (sigue igual). Prioridad sin cambios: Utamo Vita primero, luego Haste, luego cura de paralisis. Deteccion/inyeccion por cliente, bridge y updater sin tocar (mismos binarios probados).",
+    "lua_rev":  "4.0.51",
+    "sig":  "b1f92b570bde3d63bf82aea490a3fd07dff643a08a8fa45e6c90f43213ecdc33",
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotLauncher.exe?v=4.0.50",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotLauncher.exe?v=4.0.51",
                       "sha256":  "ae9c1932e60af22335e5b92b8a8330fa61bf98a3d7e700130657ed867f2a29c4"
                   },
                   {
                       "name":  "NoxBotBridge.dll",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotBridge.dll?v=4.0.50",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotBridge.dll?v=4.0.51",
                       "sha256":  "8d8dd4d118591b0a8c269dadce8250a81e49741fb09e50e152546ed5471dc328"
                   },
                   {
                       "name":  "NoxBotUpdater.exe",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotUpdater.exe?v=4.0.50",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotUpdater.exe?v=4.0.51",
                       "sha256":  "ad374afe1b3b9a60a4c52492c10fb32780a64d534c3636ac79ab9fed4c4a274f"
                   },
                   {
                       "name":  "nox_lua.zip",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/nox_lua.zip?v=4.0.50",
-                      "sha256":  "ded03233168266b6ac185193671aebf62bba0a49b9bd2f2e331000b1a7b939ea"
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/nox_lua.zip?v=4.0.51",
+                      "sha256":  "ca24b050ac77ce02dc70db4b6eafd7e40f9b6787d680839c26ba9b640b27934a"
                   }
               ]
 }
