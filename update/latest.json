@@ -1,28 +1,28 @@
 {
-    "version":  "4.0.43",
-    "notes":  "4.0.43 - FIX adicional al launcher (sigue del 4.0.42): 1) ventanas del launcher que nunca llegaban a Activate se quedaban abiertas para siempre aunque cerraras todos los clientes (dias enteros); ahora si no hay ningun cliente conocido y nunca se activo nada durante 90s seguidos, se cierra sola (cualquier cliente detectado reinicia la cuenta). 2) al cerrar el launcher (boton X) se llamaba DOS veces al fetch de update, una de ellas bloqueando el hilo de UI hasta 120s si la red iba lenta (cierre colgado) y pudiendo dejar un NoxBotUpdater.exe extra suelto; ahora una sola llamada, no bloqueante, en el cierre real de la ventana -\u003e cierre instantaneo (medido ~0.4s), cero procesos residuales. Deteccion/inyeccion por cliente sin tocar. NoxBotBridge.dll y NoxBotUpdater.exe SIN CAMBIOS (mismos binarios probados desde 4.0.32/4.0.31).",
-    "lua_rev":  "4.0.43",
-    "sig":  "a2752ca6119f51f3130651ffd22950850bc85f43f7d0c61a4ced38689e599c5e",
+    "version":  "4.0.50",
+    "notes":  "4.0.50 - FIX: a veces el targeting (y en general cualquier On/Off de TargetBot/CaveBot) se quedaba pillado tras un rato -- se activaba o desactivaba desde la UI y no hacia nada hasta apagar y encender el bot entero. Causa: un delay interno se podia quedar atascado en el futuro (o un fallo puntual leyendo el JSON de config) y mientras tanto el motor ni siquiera comprobaba si habias tocado el switch. Ahora hay un vigilante independiente que corre cada 1s y corrige solo el desajuste On/Off al momento, sin esperar a un reinicio completo (en CaveBot solo se sincroniza On/Off, sin tocar su delay interno, porque ahi se usa a proposito para esperas largas configurables). Ademas: Utamo Vita (Magic Shield) ahora se renueva 5 segundos ANTES de que expire en vez de esperar a que ya se haya caido -- antes, entre que el escudo se acababa y el bot lograba recastear, podia haber un hueco sin escudo. Deteccion/inyeccion por cliente, bridge y updater sin tocar (mismos binarios probados).",
+    "lua_rev":  "4.0.50",
+    "sig":  "d5a7ddc77fcd4727efadb441e67de6c63ce9c984daf2452519c1b5ccc3196e53",
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotLauncher.exe?v=4.0.43",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotLauncher.exe?v=4.0.50",
                       "sha256":  "ae9c1932e60af22335e5b92b8a8330fa61bf98a3d7e700130657ed867f2a29c4"
                   },
                   {
                       "name":  "NoxBotBridge.dll",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotBridge.dll?v=4.0.43",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotBridge.dll?v=4.0.50",
                       "sha256":  "8d8dd4d118591b0a8c269dadce8250a81e49741fb09e50e152546ed5471dc328"
                   },
                   {
                       "name":  "NoxBotUpdater.exe",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotUpdater.exe?v=4.0.43",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotUpdater.exe?v=4.0.50",
                       "sha256":  "ad374afe1b3b9a60a4c52492c10fb32780a64d534c3636ac79ab9fed4c4a274f"
                   },
                   {
                       "name":  "nox_lua.zip",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/nox_lua.zip?v=4.0.43",
-                      "sha256":  "2b0dd396e34d31e2cc4dc1d0bf0210a8864940497050127979f918c96f49b221"
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/nox_lua.zip?v=4.0.50",
+                      "sha256":  "ded03233168266b6ac185193671aebf62bba0a49b9bd2f2e331000b1a7b939ea"
                   }
               ]
 }
