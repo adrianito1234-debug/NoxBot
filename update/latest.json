@@ -1,28 +1,28 @@
 {
-    "version":  "4.0.51",
-    "notes":  "4.0.51 - Utani Gran Hur (y Haste en general) reintentaba tarde cuando chocaba con el exhaust compartido de hechizos de soporte (Utamo Vita / Utana Vid / Haste / Antiparalise comparten el mismo cajon de 2s, simulando el exhaust real del server). Se recorta ese hueco a 1.7s solo para el grupo de soporte -- se reintenta un poco mas rapido sin llegar a spamear \u0027you are exhausted\u0027. El exhaust de ataque/cura no se toca (sigue igual). Prioridad sin cambios: Utamo Vita primero, luego Haste, luego cura de paralisis. Deteccion/inyeccion por cliente, bridge y updater sin tocar (mismos binarios probados).",
-    "lua_rev":  "4.0.51",
-    "sig":  "b1f92b570bde3d63bf82aea490a3fd07dff643a08a8fa45e6c90f43213ecdc33",
+    "version":  "4.0.52",
+    "notes":  "4.0.52 - Quickloot mas rapido (modo Quickloot del server): 1) el cuerpo MAS CERCANO va primero, calculado con tu posicion real en cada tick -- antes se iba en orden de muerte y con varios bichos muertos a la vez el personaje zigzagueaba entre cuerpos; se respeta la opcion \u0027loot last\u0027. 2) al terminar un cuerpo se sigue con el siguiente en el mismo tick en vez de esperar otro tick (~100 ms menos por cuerpo). No sube el ritmo de paquetes (maximo 1 quickLoot por tick, igual que antes) y el modo de abrir cuerpos a mano no cambia. Deteccion/inyeccion por cliente, bridge y updater sin tocar (mismos binarios probados).",
+    "lua_rev":  "4.0.52",
+    "sig":  "8811837bff7759f3e8fefb217b23d623ec9fb992b492eecace1f45a54bc13594",
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotLauncher.exe?v=4.0.51",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotLauncher.exe?v=4.0.52",
                       "sha256":  "ae9c1932e60af22335e5b92b8a8330fa61bf98a3d7e700130657ed867f2a29c4"
                   },
                   {
                       "name":  "NoxBotBridge.dll",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotBridge.dll?v=4.0.51",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotBridge.dll?v=4.0.52",
                       "sha256":  "8d8dd4d118591b0a8c269dadce8250a81e49741fb09e50e152546ed5471dc328"
                   },
                   {
                       "name":  "NoxBotUpdater.exe",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotUpdater.exe?v=4.0.51",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotUpdater.exe?v=4.0.52",
                       "sha256":  "ad374afe1b3b9a60a4c52492c10fb32780a64d534c3636ac79ab9fed4c4a274f"
                   },
                   {
                       "name":  "nox_lua.zip",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/nox_lua.zip?v=4.0.51",
-                      "sha256":  "ca24b050ac77ce02dc70db4b6eafd7e40f9b6787d680839c26ba9b640b27934a"
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/nox_lua.zip?v=4.0.52",
+                      "sha256":  "f9b1f5ffd25e02b838b042af1061299bac03e1d8ec06c18d316c400cfe9071e8"
                   }
               ]
 }
