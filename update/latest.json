@@ -1,27 +1,27 @@
 {
-    "version":  "4.0.57",
-    "notes":  "4.0.57 - Actualizacion unificada x64 + Retronic. El updater ahora entiende tambien el canal de Retronic (x86) y puede aplicar los scripts de Retronic. Motor: al cerrar el panel de NoxBot con la X en Retronic (que no tiene boton en la barra superior) vuelve a aparecer minimizado; logo e icono de Retronic pintados desde la propia carpeta del bot. Scripts de Retronic: arreglado el error del TargetBot. Clientes x64 (Olders, Nostalrius, Antica Retro): sin cambios de comportamiento. Launcher y bridge sin tocar (mismos binarios probados).",
+    "version":  "4.0.59",
+    "notes":  "4.0.59 - Olders (x64): el launcher ahora comprueba y calcula solo, contra el propio exe de Olders, las direcciones que el bot necesita para inyectar (gettop y lua_loadx), asi que sigue funcionando aunque Olders se actualice y no hace falta ningun fichero extra. Si no puede calcularlas con seguridad no toca nada y el aviso sale limpio, sin cerrar el cliente. Nostalrius y Antica Retro: sin cambios. Bridge y updater sin tocar.",
     "lua_rev":  "4.0.57",
-    "sig":  "cc785014fd6d8c7ab31f46d5737ac95e36c3b8f6a4c7a498f18cb30f33271855",
+    "sig":  "bef9e9a8ac48f8178fe2082d2b533871f23aca1b277c893316729ff6c9e9a183",
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotLauncher.exe?v=4.0.57",
-                      "sha256":  "3f8b00f109ec7edf83b865e0a9c0739624df4c53f5e1af8eaa36775516b44ca4"
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotLauncher.exe?v=4.0.59",
+                      "sha256":  "04d310929167c57351f4277e25b1b7c98795da8b3def0c5e69890e6ac2b862f3"
                   },
                   {
                       "name":  "NoxBotBridge.dll",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotBridge.dll?v=4.0.57",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotBridge.dll?v=4.0.59",
                       "sha256":  "8d8dd4d118591b0a8c269dadce8250a81e49741fb09e50e152546ed5471dc328"
                   },
                   {
                       "name":  "NoxBotUpdater.exe",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotUpdater.exe?v=4.0.57",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotUpdater.exe?v=4.0.59",
                       "sha256":  "ee803a4c13e1f110def6bb0a6f0e971f06a13c3a546024024f17526a186c18f6"
                   },
                   {
                       "name":  "nox_lua.zip",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/nox_lua.zip?v=4.0.57",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/nox_lua.zip?v=4.0.59",
                       "sha256":  "acad3eb0804850fa2aa6100c100fa80779250a1c0d96ad9d85395dff96050b00"
                   }
               ]
