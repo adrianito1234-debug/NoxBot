@@ -1,28 +1,28 @@
 {
-    "version":  "4.0.52",
-    "notes":  "4.0.52 - Quickloot mas rapido (modo Quickloot del server): 1) el cuerpo MAS CERCANO va primero, calculado con tu posicion real en cada tick -- antes se iba en orden de muerte y con varios bichos muertos a la vez el personaje zigzagueaba entre cuerpos; se respeta la opcion \u0027loot last\u0027. 2) al terminar un cuerpo se sigue con el siguiente en el mismo tick en vez de esperar otro tick (~100 ms menos por cuerpo). No sube el ritmo de paquetes (maximo 1 quickLoot por tick, igual que antes) y el modo de abrir cuerpos a mano no cambia. Deteccion/inyeccion por cliente, bridge y updater sin tocar (mismos binarios probados).",
-    "lua_rev":  "4.0.52",
-    "sig":  "8811837bff7759f3e8fefb217b23d623ec9fb992b492eecace1f45a54bc13594",
+    "version":  "4.0.53",
+    "notes":  "4.0.53 - Selector de configuracion en el panel del bot (clientes x64: Olders, Nostalrius, Antica Retro): el desplegable de arriba ahora lista TODOS los personajes que tengas en tu propio PC y puedes cambiar a mano a la configuracion de otro (cavebot, targetbot, heal, condiciones...). Al entrar SIEMPRE se carga la del personaje que entra: la eleccion manual solo dura hasta salir del personaje. Cada perfil guarda en su propia carpeta, sin mezclarse (al cambiar se guarda primero lo del perfil actual; las casillas On/Off van con el perfil elegido). Solo se listan carpetas que ya existen en tu equipo: no se descarga ni se comparte ninguna configuracion. Retronic (x86) y el resto de clientes sin cambios. Launcher, bridge y updater sin tocar (mismos binarios probados).",
+    "lua_rev":  "4.0.53",
+    "sig":  "90a911a431ef32c8752f6e3977e9045862e8987e27daf5664511aa10ffc6d568",
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotLauncher.exe?v=4.0.52",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotLauncher.exe?v=4.0.53",
                       "sha256":  "ae9c1932e60af22335e5b92b8a8330fa61bf98a3d7e700130657ed867f2a29c4"
                   },
                   {
                       "name":  "NoxBotBridge.dll",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotBridge.dll?v=4.0.52",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotBridge.dll?v=4.0.53",
                       "sha256":  "8d8dd4d118591b0a8c269dadce8250a81e49741fb09e50e152546ed5471dc328"
                   },
                   {
                       "name":  "NoxBotUpdater.exe",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotUpdater.exe?v=4.0.52",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotUpdater.exe?v=4.0.53",
                       "sha256":  "ad374afe1b3b9a60a4c52492c10fb32780a64d534c3636ac79ab9fed4c4a274f"
                   },
                   {
                       "name":  "nox_lua.zip",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/nox_lua.zip?v=4.0.52",
-                      "sha256":  "f9b1f5ffd25e02b838b042af1061299bac03e1d8ec06c18d316c400cfe9071e8"
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/nox_lua.zip?v=4.0.53",
+                      "sha256":  "56bc828380314586d48fd8c352a8f1687f31e8e350bb2720cb4c082b91204613"
                   }
               ]
 }
