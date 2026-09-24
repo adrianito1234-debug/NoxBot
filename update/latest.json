@@ -1,28 +1,28 @@
 {
-    "version":  "4.0.53",
-    "notes":  "4.0.53 - Selector de configuracion en el panel del bot (clientes x64: Olders, Nostalrius, Antica Retro): el desplegable de arriba ahora lista TODOS los personajes que tengas en tu propio PC y puedes cambiar a mano a la configuracion de otro (cavebot, targetbot, heal, condiciones...). Al entrar SIEMPRE se carga la del personaje que entra: la eleccion manual solo dura hasta salir del personaje. Cada perfil guarda en su propia carpeta, sin mezclarse (al cambiar se guarda primero lo del perfil actual; las casillas On/Off van con el perfil elegido). Solo se listan carpetas que ya existen en tu equipo: no se descarga ni se comparte ninguna configuracion. Retronic (x86) y el resto de clientes sin cambios. Launcher, bridge y updater sin tocar (mismos binarios probados).",
-    "lua_rev":  "4.0.53",
-    "sig":  "90a911a431ef32c8752f6e3977e9045862e8987e27daf5664511aa10ffc6d568",
+    "version":  "4.0.54",
+    "notes":  "4.0.54 - Todo en la carpeta del bot, nada en AppData. Clientes x64 (Olders, Nostalrius, Antica Retro): perfiles, cavebot, targeting, heal, condiciones y storage viven ahora SOLO en noxbot_data\\noxbot\\\u003cpersonaje\u003e, asi que copiar la carpeta de un personaje a otro PC se lleva todo su cavebot y su targeting. La primera vez que entres, lo que ya tuvieras guardado en el AppData del cliente se copia solo a la carpeta del bot (sin borrar nada). El launcher x64 ya no copia perfiles al AppData del cliente. Retronic (x86): el motor tambien guarda en la carpeta del bot (noxbot_data\\noxbot32\\\u003cpersonaje\u003e). Bridge y updater sin tocar (mismos binarios probados).",
+    "lua_rev":  "4.0.54",
+    "sig":  "371d2d20cc9c9e75ad227dbf1b67ddf48116d6effbecfda5b5f18dde0e7a73e5",
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotLauncher.exe?v=4.0.53",
-                      "sha256":  "ae9c1932e60af22335e5b92b8a8330fa61bf98a3d7e700130657ed867f2a29c4"
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotLauncher.exe?v=4.0.54",
+                      "sha256":  "3f8b00f109ec7edf83b865e0a9c0739624df4c53f5e1af8eaa36775516b44ca4"
                   },
                   {
                       "name":  "NoxBotBridge.dll",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotBridge.dll?v=4.0.53",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotBridge.dll?v=4.0.54",
                       "sha256":  "8d8dd4d118591b0a8c269dadce8250a81e49741fb09e50e152546ed5471dc328"
                   },
                   {
                       "name":  "NoxBotUpdater.exe",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotUpdater.exe?v=4.0.53",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotUpdater.exe?v=4.0.54",
                       "sha256":  "ad374afe1b3b9a60a4c52492c10fb32780a64d534c3636ac79ab9fed4c4a274f"
                   },
                   {
                       "name":  "nox_lua.zip",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/nox_lua.zip?v=4.0.53",
-                      "sha256":  "56bc828380314586d48fd8c352a8f1687f31e8e350bb2720cb4c082b91204613"
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/nox_lua.zip?v=4.0.54",
+                      "sha256":  "e55bc5d0e5a0704121b7da4c41d5db6af88776c1a2c76103b553fac4dc8a4313"
                   }
               ]
 }
