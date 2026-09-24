@@ -1,23 +1,13 @@
 {
-    "version":  "4.0.55",
-    "notes":  "SKU-32 (Retronic/x86) 4.0.55 - Launcher x86: antes de inyectar comprueba las firmas contra el propio exe de Retronic y, si el cliente se actualizo y ya no encajan, las recalcula solo (evita el aviso \u0027Found LuaJIT but not lua_State\u0027 tras una actualizacion de Retronic). Si no puede recalcularlas con seguridad usa el escaneo del bridge. Bridge32 e inject32 sin cambios.",
+    "version":  "4.0.56",
+    "notes":  "SKU-32 (Retronic/x86) 4.0.56 - El launcher x86 ya comprueba y aplica actualizaciones solo (canal x86 independiente): al abrirlo y al cerrarlo busca novedades, y si hay una pendiente la aplica al abrir. Incluye la autocorreccion de firmas de Retronic (si Retronic se actualiza y las firmas ya no encajan, se recalculan solas).",
     "lua_rev":  "",
-    "sig":  "807f8c003d18cd261450827462532d4c335cb288d01615176de0e33d8b8f1597",
+    "sig":  "aff2f6868d15c05095ff23e76ffcc5b66217148a88ee107765826b8e4f84e24f",
     "files":  [
                   {
                       "name":  "NoxBotLauncher32.exe",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update32/files32/NoxBotLauncher32.exe?v=4.0.55",
-                      "sha256":  "63aeac4439dec321cb7f078297a4855afd8533158257f2ac63774af622481779"
-                  },
-                  {
-                      "name":  "NoxBotBridge32.dll",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update32/files32/NoxBotBridge32.dll?v=4.0.55",
-                      "sha256":  "192ff5d31364421ea245ddb7e0885a99bf2795ad883d2ad420fbe2f3d522598e"
-                  },
-                  {
-                      "name":  "NoxInject32.exe",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update32/files32/NoxInject32.exe?v=4.0.55",
-                      "sha256":  "a54935b5e0ddbbb4cda1112a8e776786f126ead7f2cf95a3ef5e2c84576d9472"
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update32/files32/NoxBotLauncher32.exe?v=4.0.56",
+                      "sha256":  "080aa794415eb649a574a63138cde8c788754f2741524feb7623b4f682591fa9"
                   }
               ]
 }
