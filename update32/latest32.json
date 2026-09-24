@@ -1,17 +1,17 @@
 {
-    "version":  "4.0.58",
-    "notes":  "SKU-32 (Retronic/x86) 4.0.58 - Canal x86 con las mismas novedades que el x64 4.0.57: el launcher x86 se actualiza solo, aplica motor y scripts de Retronic (arreglo del TargetBot incluido) y recalcula las firmas si Retronic se actualiza.",
+    "version":  "4.0.60",
+    "notes":  "SKU-32 (Retronic/x86) 4.0.60 - Canal x86 alineado con el x64 4.0.59 (mismo motor y scripts de Retronic, mismo lua_rev). Launcher x86 sin cambios.",
     "lua_rev":  "4.0.57",
-    "sig":  "796d01ade9f7507cd89f8925f346721eb70505c47c7c1591b7c87ea3e5322301",
+    "sig":  "7a55c52e1c3ce658025ac768c042205e9738ab15dec9bef63e2f5346d2ca2b06",
     "files":  [
                   {
                       "name":  "NoxBotLauncher32.exe",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update32/files32/NoxBotLauncher32.exe?v=4.0.58",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update32/files32/NoxBotLauncher32.exe?v=4.0.60",
                       "sha256":  "080aa794415eb649a574a63138cde8c788754f2741524feb7623b4f682591fa9"
                   },
                   {
                       "name":  "nox_lua.zip",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/nox_lua.zip?v=4.0.58",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/nox_lua.zip?v=4.0.60",
                       "sha256":  "acad3eb0804850fa2aa6100c100fa80779250a1c0d96ad9d85395dff96050b00"
                   }
               ]
