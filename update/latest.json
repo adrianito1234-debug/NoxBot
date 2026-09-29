@@ -1,0 +1,28 @@
+{
+    "version":  "4.0.66",
+    "notes":  "Lootaround (quickloot en movimiento), marcadores de loot fuera, GFB alcance real.",
+    "lua_rev":  "4.0.61",
+    "sig":  "d9277490c4756b405e06d29f71cbdea486a36b1287fc0c303cb368cc2538a21c",
+    "files":  [
+                  {
+                      "name":  "NoxBotLauncher.exe",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotLauncher.exe?v=4.0.66",
+                      "sha256":  "67c0170bd146866f3695b94c580705db5cc240bbc0b35f43b947834875ba8406"
+                  },
+                  {
+                      "name":  "NoxBotBridge.dll",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotBridge.dll?v=4.0.66",
+                      "sha256":  "53c24f24f9a658327c14b4e947c53519023b31f15c22f81da1bca883a3028ea3"
+                  },
+                  {
+                      "name":  "NoxBotUpdater.exe",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotUpdater.exe?v=4.0.66",
+                      "sha256":  "1091d6bbd70b3e0852d8d0597c7d0287845a8cbfb5beed6c42fad0856d2c9a46"
+                  },
+                  {
+                      "name":  "nox_lua.zip",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/nox_lua.zip?v=4.0.66",
+                      "sha256":  "0d649543ca4abefeaeecb7ec0cf546ddd0bf3a51837522bbc953c05ea4486879"
+                  }
+              ]
+}

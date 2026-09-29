@@ -1,0 +1,18 @@
+{
+    "version":  "4.0.67",
+    "notes":  "Lootaround (quickloot en movimiento), marcadores de loot fuera; mismo zip y lua_rev.",
+    "lua_rev":  "4.0.61",
+    "sig":  "9e8ae1db6838c1f849520e72be6d568118aec61dc21e30560ae8ee47e34e025f",
+    "files":  [
+                  {
+                      "name":  "NoxBotLauncher32.exe",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update32/files32/NoxBotLauncher32.exe?v=4.0.67",
+                      "sha256":  "8d6f1145a5af3cd890d1b6d4e063522028aad26c127dcc8fa3129c1d6c081ec5"
+                  },
+                  {
+                      "name":  "nox_lua.zip",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/nox_lua.zip?v=4.0.67",
+                      "sha256":  "0d649543ca4abefeaeecb7ec0cf546ddd0bf3a51837522bbc953c05ea4486879"
+                  }
+              ]
+}
