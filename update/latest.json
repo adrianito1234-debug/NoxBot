@@ -1,8 +1,8 @@
 {
     "version":  "4.0.68",
-    "notes":  "Personajes existentes conservan sus scripts y paneles propios: _template solo siembra lo que falta. Goto salta waypoints bloqueados.",
+    "notes":  "Personajes existentes conservan sus scripts personalizados; el update solo refresca lo que no han tocado. Goto salta waypoints bloqueados.",
     "lua_rev":  "4.0.62",
-    "sig":  "aacdb3f08d10ba204d239c57e579e3b0d6b53b3d55f22660ed4b8c2b9e378b93",
+    "sig":  "e60e63b5bdb28f718fb5025454da85f2633106653e71609a78f20245c4ab0d2b",
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
@@ -17,7 +17,7 @@
                   {
                       "name":  "NoxBotUpdater.exe",
                       "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotUpdater.exe?v=4.0.68",
-                      "sha256":  "1091d6bbd70b3e0852d8d0597c7d0287845a8cbfb5beed6c42fad0856d2c9a46"
+                      "sha256":  "bd631a9fd2a73043fcbe65ac90c33649313c4e292cda3ca8b3c170558159086f"
                   },
                   {
                       "name":  "nox_lua.zip",
