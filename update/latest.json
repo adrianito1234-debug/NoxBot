@@ -1,8 +1,8 @@
 {
     "version":  "4.0.68",
-    "notes":  "Personajes existentes conservan sus scripts personalizados; el update solo refresca lo que no han tocado. Goto salta waypoints bloqueados.",
+    "notes":  "Hotkeys de SD ya no se bloquean tras morir u On/Off. Personajes existentes conservan sus scripts personalizados. Goto salta waypoints bloqueados.",
     "lua_rev":  "4.0.62",
-    "sig":  "e60e63b5bdb28f718fb5025454da85f2633106653e71609a78f20245c4ab0d2b",
+    "sig":  "7fd7baf5cfea81858344d58b6ad123f002e6fe3ed77907bb5884988f6701021e",
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
@@ -22,7 +22,7 @@
                   {
                       "name":  "nox_lua.zip",
                       "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/nox_lua.zip?v=4.0.68",
-                      "sha256":  "b46107ce5d70cb3c94ab6c0e75d635a15eb9b93c9c3e65a385d488dcec054dcb"
+                      "sha256":  "617607683384769b9f7ab57c80d907f163dc2f9c5c34c1d75693bd0c659344bf"
                   }
               ]
 }
