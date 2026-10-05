@@ -1,28 +1,28 @@
 {
-    "version":  "4.0.68",
-    "notes":  "Hotkeys de SD ya no se bloquean tras morir u On/Off. Personajes existentes conservan sus scripts personalizados. Goto salta waypoints bloqueados.",
-    "lua_rev":  "4.0.62",
-    "sig":  "7fd7baf5cfea81858344d58b6ad123f002e6fe3ed77907bb5884988f6701021e",
+    "version":  "4.0.70",
+    "notes":  "Nueva opcion en Supply Settings: Action Bar Count. En servidores con action bar (Olders) cuenta los supplies con el numero real de la barra, sin tener que abrir las mochilas.",
+    "lua_rev":  "4.0.63",
+    "sig":  "d832705060f1a7704d715466362e3bd63ea6650382c12cb673c1dba3ae0e0816",
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotLauncher.exe?v=4.0.68",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotLauncher.exe?v=4.0.70",
                       "sha256":  "67c0170bd146866f3695b94c580705db5cc240bbc0b35f43b947834875ba8406"
                   },
                   {
                       "name":  "NoxBotBridge.dll",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotBridge.dll?v=4.0.68",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotBridge.dll?v=4.0.70",
                       "sha256":  "53c24f24f9a658327c14b4e947c53519023b31f15c22f81da1bca883a3028ea3"
                   },
                   {
                       "name":  "NoxBotUpdater.exe",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotUpdater.exe?v=4.0.68",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotUpdater.exe?v=4.0.70",
                       "sha256":  "bd631a9fd2a73043fcbe65ac90c33649313c4e292cda3ca8b3c170558159086f"
                   },
                   {
                       "name":  "nox_lua.zip",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/nox_lua.zip?v=4.0.68",
-                      "sha256":  "617607683384769b9f7ab57c80d907f163dc2f9c5c34c1d75693bd0c659344bf"
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/nox_lua.zip?v=4.0.70",
+                      "sha256":  "92637258ce3e5ffe427a7242b501e640f2a0c153ce1e7a185f8ebb8cc631d780"
                   }
               ]
 }
