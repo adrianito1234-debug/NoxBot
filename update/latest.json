@@ -1,28 +1,28 @@
 {
-    "version":  "4.0.72",
-    "notes":  "CaveBot: npcsay habla en la pestana NPCs (Olders/Nostalrius); say sigue en Default. TargetBot: anda sin prewalk, el personaje ya no se queda pintado en otro sqm.",
-    "lua_rev":  "4.0.64",
-    "sig":  "f8d632a697096000c6d3cb5ade5d64bcc56c29cc3cfeacb671786b1df3dc8a9e",
+    "version":  "4.0.74",
+    "notes":  "Buy Supplies: abre el trade en Olders/Nostalrius, compra el frasco correcto (id + subtipo: mana, no life) y nunca pasa del Max. Arrastra tu mana a Supply Settings y dale a Close.",
+    "lua_rev":  "4.0.65",
+    "sig":  "b45a79d6c83f82df32fcdd8aea8ecf9b10648ffa31df2ff47edb0d81f7f9190a",
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotLauncher.exe?v=4.0.72",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotLauncher.exe?v=4.0.74",
                       "sha256":  "67c0170bd146866f3695b94c580705db5cc240bbc0b35f43b947834875ba8406"
                   },
                   {
                       "name":  "NoxBotBridge.dll",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotBridge.dll?v=4.0.72",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotBridge.dll?v=4.0.74",
                       "sha256":  "53c24f24f9a658327c14b4e947c53519023b31f15c22f81da1bca883a3028ea3"
                   },
                   {
                       "name":  "NoxBotUpdater.exe",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotUpdater.exe?v=4.0.72",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotUpdater.exe?v=4.0.74",
                       "sha256":  "bd631a9fd2a73043fcbe65ac90c33649313c4e292cda3ca8b3c170558159086f"
                   },
                   {
                       "name":  "nox_lua.zip",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/nox_lua.zip?v=4.0.72",
-                      "sha256":  "12b4f6b487c5e0beed2ce6c09762f56d6d42d893fe719f2c24ac42475574ee53"
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/nox_lua.zip?v=4.0.74",
+                      "sha256":  "dd4277e51946d31125d1cd669c9f76d237dc04fab27f585bd4570b3909a2c00b"
                   }
               ]
 }
