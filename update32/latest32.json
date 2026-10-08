@@ -1,18 +1,18 @@
 {
-    "version":  "4.0.77",
-    "notes":  "Mismo pack unificado de siempre; mejoras internas del motor.",
-    "lua_rev":  "4.0.76",
-    "sig":  "816bd729061d8021e1c2afa59a64fb26995c48346cacaa533528b27b0b5e3e22",
+    "version":  "4.0.79",
+    "notes":  "Mantenimiento: misma version de scripts que x64.",
+    "lua_rev":  "4.0.78",
+    "sig":  "f93e337970a642caa55081a0c68429b48ed562aa88ac180d7672e672e94a237b",
     "files":  [
                   {
                       "name":  "NoxBotLauncher32.exe",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update32/files32/NoxBotLauncher32.exe?v=4.0.77",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update32/files32/NoxBotLauncher32.exe?v=4.0.79",
                       "sha256":  "8d6f1145a5af3cd890d1b6d4e063522028aad26c127dcc8fa3129c1d6c081ec5"
                   },
                   {
                       "name":  "nox_lua.zip",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/nox_lua.zip?v=4.0.77",
-                      "sha256":  "4ab6ffa2800762a76e64000e85b38b64272f11eab82c6e95cf883138df9846bf"
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/nox_lua.zip?v=4.0.79",
+                      "sha256":  "b1731259a7eef4e28f34e46f4402ce5be60f5e1a8b67673277487641c1be5aaa"
                   }
               ]
 }
