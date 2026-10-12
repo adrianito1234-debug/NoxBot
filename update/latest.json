@@ -1,28 +1,28 @@
 {
-    "version":  "4.0.84",
-    "notes":  "Nuevo en Private Scripts (con icono): Hold MW (re-tira la magic wall justo cuando cae, solo ON/OFF) y Push BP (lleva tu BP por el suelo hacia el raton, solo por casillas seguras, quita lo que le tiren encima).",
-    "lua_rev":  "4.0.84",
-    "sig":  "75401f9da3999d76fb66edc2c7ae92adc9d51e4569f682840fb7c584e90f1d33",
+    "version":  "4.0.86",
+    "notes":  "Chase mas fluido (persigue como attack follow sin romper el lure), Follow que sube escaleras, portales y cuerda, quickloot mas rapido con 8 cuerpos, iconos mas abajo y arrastre con boton derecho que sigue al raton.",
+    "lua_rev":  "4.0.86",
+    "sig":  "d151e5105f52b083dc601adb3453c2e68339e391ac0f76f0c49bb8ed1feba1b8",
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotLauncher.exe?v=4.0.84",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotLauncher.exe?v=4.0.86",
                       "sha256":  "67c0170bd146866f3695b94c580705db5cc240bbc0b35f43b947834875ba8406"
                   },
                   {
                       "name":  "NoxBotBridge.dll",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotBridge.dll?v=4.0.84",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotBridge.dll?v=4.0.86",
                       "sha256":  "53c24f24f9a658327c14b4e947c53519023b31f15c22f81da1bca883a3028ea3"
                   },
                   {
                       "name":  "NoxBotUpdater.exe",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotUpdater.exe?v=4.0.84",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotUpdater.exe?v=4.0.86",
                       "sha256":  "bd631a9fd2a73043fcbe65ac90c33649313c4e292cda3ca8b3c170558159086f"
                   },
                   {
                       "name":  "nox_lua.zip",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/nox_lua.zip?v=4.0.84",
-                      "sha256":  "77f5df6316057197f779d170a0164f3eb2dedcd88fa6bf6676bd83404c27785a"
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/nox_lua.zip?v=4.0.86",
+                      "sha256":  "bf819e6595f497deb54bef7fe1c740571f51b75d5926094302cd1162a1fabbce"
                   }
               ]
 }
