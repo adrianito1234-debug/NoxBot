@@ -1,28 +1,28 @@
 {
-    "version":  "4.0.92",
-    "notes":  "Arreglo: el panel de NoxBot ya no se pone encima de las ventanas del cliente al entrar. Si te pasaba, arrastra el panel a la columna una vez.",
-    "lua_rev":  "4.0.92",
-    "sig":  "b9e629dd695fdb11bab49d060a540c7872cdd462f1bb7a93bff9f739bd695727",
+    "version":  "4.0.94",
+    "notes":  "Push BP: con el raton justo encima de una escalera, rampa o agujero tira la BP ahi (sube o baja donde aparecerias tu); al subir o bajar la vuelve a coger.",
+    "lua_rev":  "4.0.94",
+    "sig":  "c0deb955a9e1e2bc4062100864f41d56cd1dbedea2b7d36dcc68f6e07970b0c9",
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotLauncher.exe?v=4.0.92",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotLauncher.exe?v=4.0.94",
                       "sha256":  "67c0170bd146866f3695b94c580705db5cc240bbc0b35f43b947834875ba8406"
                   },
                   {
                       "name":  "NoxBotBridge.dll",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotBridge.dll?v=4.0.92",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotBridge.dll?v=4.0.94",
                       "sha256":  "53c24f24f9a658327c14b4e947c53519023b31f15c22f81da1bca883a3028ea3"
                   },
                   {
                       "name":  "NoxBotUpdater.exe",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotUpdater.exe?v=4.0.92",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotUpdater.exe?v=4.0.94",
                       "sha256":  "bd631a9fd2a73043fcbe65ac90c33649313c4e292cda3ca8b3c170558159086f"
                   },
                   {
                       "name":  "nox_lua.zip",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/nox_lua.zip?v=4.0.92",
-                      "sha256":  "7dde2200f04561d949a465b660a3dcedbae749d961813812484141ce949d967d"
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/nox_lua.zip?v=4.0.94",
+                      "sha256":  "d6ff469aef114dad546dccff0f206f84d12e49f39c4ba08b1fc850d23e00a3b2"
                   }
               ]
 }
