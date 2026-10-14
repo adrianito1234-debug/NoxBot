@@ -1,28 +1,28 @@
 {
-    "version":  "4.0.90",
-    "notes":  "Arreglos: el icono de Conditions se activa al momento; Follow solo se mueve cuando el lider da un paso y pasa mejor los portales; Containers Open minimised (borrar filas y guardar items).",
-    "lua_rev":  "4.0.90",
-    "sig":  "c96cbbe7d78a8a3d1bf5dd5d8cb2f0ce5a3bc3424ab44a2e6f87b45d6a00e0bf",
+    "version":  "4.0.92",
+    "notes":  "Arreglo: el panel de NoxBot ya no se pone encima de las ventanas del cliente al entrar. Si te pasaba, arrastra el panel a la columna una vez.",
+    "lua_rev":  "4.0.92",
+    "sig":  "b9e629dd695fdb11bab49d060a540c7872cdd462f1bb7a93bff9f739bd695727",
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotLauncher.exe?v=4.0.90",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotLauncher.exe?v=4.0.92",
                       "sha256":  "67c0170bd146866f3695b94c580705db5cc240bbc0b35f43b947834875ba8406"
                   },
                   {
                       "name":  "NoxBotBridge.dll",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotBridge.dll?v=4.0.90",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotBridge.dll?v=4.0.92",
                       "sha256":  "53c24f24f9a658327c14b4e947c53519023b31f15c22f81da1bca883a3028ea3"
                   },
                   {
                       "name":  "NoxBotUpdater.exe",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotUpdater.exe?v=4.0.90",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotUpdater.exe?v=4.0.92",
                       "sha256":  "bd631a9fd2a73043fcbe65ac90c33649313c4e292cda3ca8b3c170558159086f"
                   },
                   {
                       "name":  "nox_lua.zip",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/nox_lua.zip?v=4.0.90",
-                      "sha256":  "5246ad59accf0c2e644225666db74c36157a0a7df524e980755285eb2824f67f"
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/nox_lua.zip?v=4.0.92",
+                      "sha256":  "7dde2200f04561d949a465b660a3dcedbae749d961813812484141ce949d967d"
                   }
               ]
 }
