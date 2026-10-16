@@ -1,28 +1,28 @@
 {
-    "version":  "4.0.98",
-    "notes":  "Arreglo: el Equipment Manager (Condition Panel) se salia del marco de la ventana en algunos clientes; ahora se ajusta bien.",
-    "lua_rev":  "4.0.98",
-    "sig":  "c8e6a4e59c955791acb2954a024b4f637ecd7e3105390ef6a0abed1ddd20cc52",
+    "version":  "4.0.100",
+    "notes":  "Dash reescrito (simple, como MageBot), Follow mas rapido y reconoce TPs raros de warzone, Friend Healer con opcion de usar items por hotkey.",
+    "lua_rev":  "4.0.100",
+    "sig":  "366edbc1a2633d683d3e7f1444d8d25e613322abcad07cfe8a49feb0a9636e9e",
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotLauncher.exe?v=4.0.98",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotLauncher.exe?v=4.0.100",
                       "sha256":  "67c0170bd146866f3695b94c580705db5cc240bbc0b35f43b947834875ba8406"
                   },
                   {
                       "name":  "NoxBotBridge.dll",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotBridge.dll?v=4.0.98",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotBridge.dll?v=4.0.100",
                       "sha256":  "53c24f24f9a658327c14b4e947c53519023b31f15c22f81da1bca883a3028ea3"
                   },
                   {
                       "name":  "NoxBotUpdater.exe",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotUpdater.exe?v=4.0.98",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotUpdater.exe?v=4.0.100",
                       "sha256":  "bd631a9fd2a73043fcbe65ac90c33649313c4e292cda3ca8b3c170558159086f"
                   },
                   {
                       "name":  "nox_lua.zip",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/nox_lua.zip?v=4.0.98",
-                      "sha256":  "ab4ae266820f03e1bafd8b40d797fceb124451680df2c53682d67a8b967e18f2"
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/nox_lua.zip?v=4.0.100",
+                      "sha256":  "03f6a28b29c22c785ff83e13d212960d482cc99d75f9740e9bea0cdd0e708ba5"
                   }
               ]
 }
