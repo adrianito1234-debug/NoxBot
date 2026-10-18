@@ -1,28 +1,28 @@
 {
-    "version":  "4.1.5",
-    "notes":  "Certificate pinning contra KeyAuth: solo se acepta la conexion si el certificado viene de verdad de la cadena de Let\u0027s Encrypt (CA intermedia + raices conocidas), no de cualquier CA de confianza del sistema. Cierra el hueco de un servidor falso haciendose pasar por KeyAuth con una CA instalada a mano. Fail-open: si no coincide, se trata igual que sin red (margen de 12h).",
-    "lua_rev":  "4.1.3",
-    "sig":  "fafd0c2e767b009a0315e1d3d31bb3102a048b8028ca55087e7b759fb53cbb18",
+    "version":  "4.1.6",
+    "notes":  "Motor Lua puesto completamente al dia: arreglo de Containers (Open Minimised), Supplies (fluidos), y todo lo acumulado del fuente. Mismos binarios que 4.1.5 (licencia reforzada), sin cambios de C++.",
+    "lua_rev":  "4.1.6",
+    "sig":  "10452dd48b2661139607d6fa10b0bee5f85dd31c7dd5c7fa94c8f3634a179714",
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotLauncher.exe?v=4.1.5",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotLauncher.exe?v=4.1.6",
                       "sha256":  "4c326bb8914d984017453c7bb8a74bc1a06d463d34c172aa0d91145e9ec1377c"
                   },
                   {
                       "name":  "NoxBotBridge.dll",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotBridge.dll?v=4.1.5",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotBridge.dll?v=4.1.6",
                       "sha256":  "d7fa9d7dbbb99e630f9c1e40ef0a33ad46c90ad42d1dafdb752c7fae28ae4a63"
                   },
                   {
                       "name":  "NoxBotUpdater.exe",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotUpdater.exe?v=4.1.5",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotUpdater.exe?v=4.1.6",
                       "sha256":  "bd631a9fd2a73043fcbe65ac90c33649313c4e292cda3ca8b3c170558159086f"
                   },
                   {
                       "name":  "nox_lua.zip",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/nox_lua.zip?v=4.1.5",
-                      "sha256":  "c4bbee8b4b2243803b28fd22c57a5ad5ff384939c7f62014772be338c5b5f007"
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/nox_lua.zip?v=4.1.6",
+                      "sha256":  "a4bb5ca9aef895e54478532f772ebc784f94727b1f270c04ace9a6f5a00cb03a"
                   }
               ]
 }
