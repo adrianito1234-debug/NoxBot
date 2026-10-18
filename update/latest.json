@@ -1,27 +1,27 @@
 {
-    "version":  "4.1.7",
-    "notes":  "Diagnostico: el panel ahora deja rastro en el log si el logo del tab Main no se puede pintar, en vez de fallar en silencio. Sin cambios de comportamiento.",
+    "version":  "4.1.8",
+    "notes":  "Arreglo del launcher: ya no vuelve a copiar archivos antiguos del bot al actualizar (los iconos, el logo y las funciones nuevas se mantienen). Sin cambios en el Lua.",
     "lua_rev":  "4.1.7",
-    "sig":  "0c6f6450b83dfa0d8191ad9ddfaa039335cd315eae40a8074c7be0bb7b4ab980",
+    "sig":  "2cbefe5c9a87ad0bb486091b34ae617cd282c9d8ea14bea691c8372f83b76366",
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotLauncher.exe?v=4.1.7",
-                      "sha256":  "4c326bb8914d984017453c7bb8a74bc1a06d463d34c172aa0d91145e9ec1377c"
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotLauncher.exe?v=4.1.8",
+                      "sha256":  "639e359ae65c91aa2936afa51a659e350976e31b3dd8015bac7a91b30ead71a0"
                   },
                   {
                       "name":  "NoxBotBridge.dll",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotBridge.dll?v=4.1.7",
-                      "sha256":  "d7fa9d7dbbb99e630f9c1e40ef0a33ad46c90ad42d1dafdb752c7fae28ae4a63"
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotBridge.dll?v=4.1.8",
+                      "sha256":  "7ee8abf70f37a0fe0434d3ac880d8b1a64052f3a8eeac814774cce19b7f2d4cd"
                   },
                   {
                       "name":  "NoxBotUpdater.exe",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotUpdater.exe?v=4.1.7",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotUpdater.exe?v=4.1.8",
                       "sha256":  "bd631a9fd2a73043fcbe65ac90c33649313c4e292cda3ca8b3c170558159086f"
                   },
                   {
                       "name":  "nox_lua.zip",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/nox_lua.zip?v=4.1.7",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/nox_lua.zip?v=4.1.8",
                       "sha256":  "9ce3366692419d33057bf0b3d8e6e4682b3c61a4c64528c59814f6eda5ee4a70"
                   }
               ]
