@@ -1,17 +1,17 @@
 {
-    "version":  "4.1.8",
-    "notes":  "Arreglo del launcher: ya no vuelve a copiar archivos antiguos del bot al actualizar. Sin cambios en el Lua.",
+    "version":  "4.1.9",
+    "notes":  "Los personajes ya no se quedan con scripts antiguos tras una actualizacion. Sin cambios en el Lua.",
     "lua_rev":  "4.1.7",
-    "sig":  "b0e0fca1e6cb633fee334714a65a3c2a6f591393e72227000d4a46bd81212cbc",
+    "sig":  "469e78023d783aba940ba0018c8ced70efb7a7085ab6d5744b3024312e06a175",
     "files":  [
                   {
                       "name":  "NoxBotLauncher32.exe",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update32/files32/NoxBotLauncher32.exe?v=4.1.8",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update32/files32/NoxBotLauncher32.exe?v=4.1.9",
                       "sha256":  "8d6f1145a5af3cd890d1b6d4e063522028aad26c127dcc8fa3129c1d6c081ec5"
                   },
                   {
                       "name":  "nox_lua.zip",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/nox_lua.zip?v=4.1.8",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/nox_lua.zip?v=4.1.9",
                       "sha256":  "9ce3366692419d33057bf0b3d8e6e4682b3c61a4c64528c59814f6eda5ee4a70"
                   }
               ]
