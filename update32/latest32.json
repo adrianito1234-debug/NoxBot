@@ -1,18 +1,18 @@
 {
-    "version":  "4.1.9",
-    "notes":  "Los personajes ya no se quedan con scripts antiguos tras una actualizacion. Sin cambios en el Lua.",
-    "lua_rev":  "4.1.7",
-    "sig":  "469e78023d783aba940ba0018c8ced70efb7a7085ab6d5744b3024312e06a175",
+    "version":  "4.1.10",
+    "notes":  "Follow: el bot recupera el hueco cuando te quedas descolgado del lider en vez de mantener la distancia.",
+    "lua_rev":  "4.1.10",
+    "sig":  "d114d523f0b87b67741b347e94fb8744a8e2182089830a74bd3eff5630cb2f57",
     "files":  [
                   {
                       "name":  "NoxBotLauncher32.exe",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update32/files32/NoxBotLauncher32.exe?v=4.1.9",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update32/files32/NoxBotLauncher32.exe?v=4.1.10",
                       "sha256":  "8d6f1145a5af3cd890d1b6d4e063522028aad26c127dcc8fa3129c1d6c081ec5"
                   },
                   {
                       "name":  "nox_lua.zip",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/nox_lua.zip?v=4.1.9",
-                      "sha256":  "9ce3366692419d33057bf0b3d8e6e4682b3c61a4c64528c59814f6eda5ee4a70"
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/nox_lua.zip?v=4.1.10",
+                      "sha256":  "56f0158f26592c44d19cc09fe34d49bdd43dbb558a26bb601e93d59b642aa199"
                   }
               ]
 }
