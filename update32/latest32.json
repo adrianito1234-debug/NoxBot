@@ -1,18 +1,18 @@
 {
-    "version":  "4.1.1",
-    "notes":  "Mantenimiento: misma version de scripts que x64.",
-    "lua_rev":  "4.1.1",
-    "sig":  "2c3dfaa92aedcf6cd57a2bae3ba2f8e02d6cd4b6553b51acd6c1f00d1114e624",
+    "version":  "4.1.2",
+    "notes":  "Fix: Energy Ring ya no pelea con el Auto Equip por el slot del dedo mientras toca llevarlo puesto.",
+    "lua_rev":  "4.1.2",
+    "sig":  "901c6ec742af64567bf107c8ecf11bfcd9fbeff97bf0dbe24884ad0dfbfda86c",
     "files":  [
                   {
                       "name":  "NoxBotLauncher32.exe",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update32/files32/NoxBotLauncher32.exe?v=4.1.1",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update32/files32/NoxBotLauncher32.exe?v=4.1.2",
                       "sha256":  "8d6f1145a5af3cd890d1b6d4e063522028aad26c127dcc8fa3129c1d6c081ec5"
                   },
                   {
                       "name":  "nox_lua.zip",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/nox_lua.zip?v=4.1.1",
-                      "sha256":  "d4755c74a41a7bc5c4507edbba3817f3e2e3873b968415407a8b6c7b1bd01890"
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/nox_lua.zip?v=4.1.2",
+                      "sha256":  "077a00d6aec18424cbe17b86420ff9fb5e88dd34d4d7578eff8551d3409f7a69"
                   }
               ]
 }

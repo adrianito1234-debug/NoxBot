@@ -1,28 +1,28 @@
 {
-    "version":  "4.1.1",
-    "notes":  "Nuevo: AoE Position (icono + Setup), se coloca solo para pegar hechizos de area tipo exevo mort hur a la mayor cantidad de bichos. Arreglo de iconos (Dash, CaveBot).",
-    "lua_rev":  "4.1.1",
-    "sig":  "7f73876ec91740cf64b6812a3aae5edd6e0b74ef4a534e8a64a648cd8c96ab3c",
+    "version":  "4.1.2",
+    "notes":  "Fix: Energy Ring ya no pelea con el Auto Equip por el slot del dedo mientras toca llevarlo puesto.",
+    "lua_rev":  "4.1.2",
+    "sig":  "96f30ee2e06c89ad27c5d953a0e06a924e77298f64764454f5cfa8745dd9d4ea",
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotLauncher.exe?v=4.1.1",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotLauncher.exe?v=4.1.2",
                       "sha256":  "67c0170bd146866f3695b94c580705db5cc240bbc0b35f43b947834875ba8406"
                   },
                   {
                       "name":  "NoxBotBridge.dll",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotBridge.dll?v=4.1.1",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotBridge.dll?v=4.1.2",
                       "sha256":  "53c24f24f9a658327c14b4e947c53519023b31f15c22f81da1bca883a3028ea3"
                   },
                   {
                       "name":  "NoxBotUpdater.exe",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotUpdater.exe?v=4.1.1",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotUpdater.exe?v=4.1.2",
                       "sha256":  "bd631a9fd2a73043fcbe65ac90c33649313c4e292cda3ca8b3c170558159086f"
                   },
                   {
                       "name":  "nox_lua.zip",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/nox_lua.zip?v=4.1.1",
-                      "sha256":  "d4755c74a41a7bc5c4507edbba3817f3e2e3873b968415407a8b6c7b1bd01890"
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/nox_lua.zip?v=4.1.2",
+                      "sha256":  "077a00d6aec18424cbe17b86420ff9fb5e88dd34d4d7578eff8551d3409f7a69"
                   }
               ]
 }
