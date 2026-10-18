@@ -1,27 +1,27 @@
 {
-    "version":  "4.1.3",
-    "notes":  "Follow mas fluido a cualquier distancia. AoE Position: no baila buscando el sitio perfecto (se queda en el mas cercano que sirva), y puede seguir al EK a distancia fija.",
+    "version":  "4.1.4",
+    "notes":  "Vigilante de licencia reforzado: el veredicto local lleva sello de tiempo (solo valido 9h, para que dejarlo fijo en solo-lectura no sirva de bypass) y manda avisos a un canal privado (licencia nueva activada, key rechazada, posible manipulacion, KeyAuth caido mucho tiempo). Margen de cierre subido de 6s a 45s.",
     "lua_rev":  "4.1.3",
-    "sig":  "dbd23faabe0d9c1a1371e903d0e3e7598f5b025621134b2060febff9526d9dcc",
+    "sig":  "051a390674aa3a363f29cf6d84493c3b0629241996a937cebc3ce4feeb56fc3b",
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotLauncher.exe?v=4.1.3",
-                      "sha256":  "67c0170bd146866f3695b94c580705db5cc240bbc0b35f43b947834875ba8406"
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotLauncher.exe?v=4.1.4",
+                      "sha256":  "d9b957539427bc13f18846d06e60133de95c35aa931e26c86fdf568fd6bb413a"
                   },
                   {
                       "name":  "NoxBotBridge.dll",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotBridge.dll?v=4.1.3",
-                      "sha256":  "53c24f24f9a658327c14b4e947c53519023b31f15c22f81da1bca883a3028ea3"
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotBridge.dll?v=4.1.4",
+                      "sha256":  "b5d6fa8b1027c614bd8337db47cbb8bac3742281ac045314b7f5b34df4c184a2"
                   },
                   {
                       "name":  "NoxBotUpdater.exe",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotUpdater.exe?v=4.1.3",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotUpdater.exe?v=4.1.4",
                       "sha256":  "bd631a9fd2a73043fcbe65ac90c33649313c4e292cda3ca8b3c170558159086f"
                   },
                   {
                       "name":  "nox_lua.zip",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/nox_lua.zip?v=4.1.3",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/nox_lua.zip?v=4.1.4",
                       "sha256":  "c4bbee8b4b2243803b28fd22c57a5ad5ff384939c7f62014772be338c5b5f007"
                   }
               ]
