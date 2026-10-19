@@ -1,13 +1,13 @@
 {
     "version":  "4.1.12",
-    "notes":  "NoxBot 4.1.12 para clientes de 32 bits: ahora tiene las mismas funciones que el x64 (fila de Icons, AoE Position, Follow, Supplies con Action Bar Count, Fast/Medium/Slow, Script Manager, Makers, Legacy Hotkeys...), aspecto rojo/verde como el x64 con letra mas grande, editor del TargetBot mas grande y Ctrl+Shift+B para abrir/cerrar el panel.",
+    "notes":  "NoxBot 4.1.12 para clientes de 32 bits: las mismas funciones que el x64 (fila de Icons, AoE Position, Follow, Supplies con Action Bar Count, Fast/Medium/Slow, Script Manager, Makers, Legacy Hotkeys...), aspecto rojo/verde como el x64, editor del TargetBot mas grande, Ctrl+Shift+B para abrir/cerrar el panel y launcher x32 al dia.",
     "lua_rev":  "4.1.12",
-    "sig":  "d4815b71e0b1460a477488bba0e95f72bd7d9ccb27e40ad6c1e3c41437b9aadd",
+    "sig":  "adc0948b0a2f9d84fe1a787e1280277b0106d2643f856c1a36c1ab4e843558eb",
     "files":  [
                   {
                       "name":  "NoxBotLauncher32.exe",
                       "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update32/files32/NoxBotLauncher32.exe?v=4.1.12",
-                      "sha256":  "8d6f1145a5af3cd890d1b6d4e063522028aad26c127dcc8fa3129c1d6c081ec5"
+                      "sha256":  "bdcb7387ae25071acd868be0d6cfd438f395239b0fc6be223071097a6d6647d6"
                   },
                   {
                       "name":  "nox_lua.zip",
