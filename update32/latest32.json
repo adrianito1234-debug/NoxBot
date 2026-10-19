@@ -1,18 +1,18 @@
 {
-    "version":  "4.1.10",
-    "notes":  "Follow: el bot recupera el hueco cuando te quedas descolgado del lider en vez de mantener la distancia.",
-    "lua_rev":  "4.1.10",
-    "sig":  "d114d523f0b87b67741b347e94fb8744a8e2182089830a74bd3eff5630cb2f57",
+    "version":  "4.1.12",
+    "notes":  "NoxBot 4.1.12 para clientes de 32 bits: ahora tiene las mismas funciones que el x64 (fila de Icons, AoE Position, Follow, Supplies con Action Bar Count, Fast/Medium/Slow, Script Manager, Makers, Legacy Hotkeys...), aspecto rojo/verde como el x64 con letra mas grande, editor del TargetBot mas grande y Ctrl+Shift+B para abrir/cerrar el panel.",
+    "lua_rev":  "4.1.12",
+    "sig":  "d4815b71e0b1460a477488bba0e95f72bd7d9ccb27e40ad6c1e3c41437b9aadd",
     "files":  [
                   {
                       "name":  "NoxBotLauncher32.exe",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update32/files32/NoxBotLauncher32.exe?v=4.1.10",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update32/files32/NoxBotLauncher32.exe?v=4.1.12",
                       "sha256":  "8d6f1145a5af3cd890d1b6d4e063522028aad26c127dcc8fa3129c1d6c081ec5"
                   },
                   {
                       "name":  "nox_lua.zip",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/nox_lua.zip?v=4.1.10",
-                      "sha256":  "56f0158f26592c44d19cc09fe34d49bdd43dbb558a26bb601e93d59b642aa199"
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/nox_lua.zip?v=4.1.12",
+                      "sha256":  "d171d52664a4e5bacf96a4c0100fbcc6a32e881bb965e4577b463cdc5e957deb"
                   }
               ]
 }

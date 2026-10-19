@@ -1,28 +1,28 @@
 {
-    "version":  "4.1.10",
-    "notes":  "Follow: si te quedas descolgado del lider (el TargetBot andando por su cuenta, una puerta, un paron para curar) el bot ahora recupera el hueco en vez de quedarse a esa distancia para siempre. Antes un paso del lider era un paso tuyo y la distancia no se cerraba nunca.",
-    "lua_rev":  "4.1.10",
-    "sig":  "2d08ee9e3be8e68cc774c3cc09d9683c025c8ad2e6a194072de27c38745ec372",
+    "version":  "4.1.12",
+    "notes":  "NoxBot 4.1.12. Follow: ya no da diagonales innecesarias (va recto y solo usa la diagonal si el camino recto esta tapado) y solo sigue a jugadores, nunca a NPCs ni monstruos.",
+    "lua_rev":  "4.1.12",
+    "sig":  "0729af5cc9402a95bcb6bd9c8e1b7cf8fd79e0a6dad689808a4d987f91d28229",
     "files":  [
                   {
                       "name":  "NoxBotLauncher.exe",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotLauncher.exe?v=4.1.10",
-                      "sha256":  "639e359ae65c91aa2936afa51a659e350976e31b3dd8015bac7a91b30ead71a0"
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotLauncher.exe?v=4.1.12",
+                      "sha256":  "8cc3896f4412df5236aaf9c4eadc848cc3401a0a0315998c83ba8d23c08378aa"
                   },
                   {
                       "name":  "NoxBotBridge.dll",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotBridge.dll?v=4.1.10",
-                      "sha256":  "7ee8abf70f37a0fe0434d3ac880d8b1a64052f3a8eeac814774cce19b7f2d4cd"
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotBridge.dll?v=4.1.12",
+                      "sha256":  "353a724d44db94919e59d0135c000bc3b4694ed72d2ed1d8d7846bd5c4eca922"
                   },
                   {
                       "name":  "NoxBotUpdater.exe",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotUpdater.exe?v=4.1.10",
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/NoxBotUpdater.exe?v=4.1.12",
                       "sha256":  "d85051acaf2c3f4e6a29441829cc6ae1fbffc1c7bb439868d4065419a0fbb2f4"
                   },
                   {
                       "name":  "nox_lua.zip",
-                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/nox_lua.zip?v=4.1.10",
-                      "sha256":  "56f0158f26592c44d19cc09fe34d49bdd43dbb558a26bb601e93d59b642aa199"
+                      "url":  "https://raw.githubusercontent.com/adrianito1234-debug/NoxBot/main/update/files/nox_lua.zip?v=4.1.12",
+                      "sha256":  "d171d52664a4e5bacf96a4c0100fbcc6a32e881bb965e4577b463cdc5e957deb"
                   }
               ]
 }
